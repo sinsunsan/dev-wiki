@@ -8,7 +8,7 @@ published: true
 
 ## http interceptor to add a token to all outgoing request
 
-To make json web token authentication, we need to pass token to the server. It is convenient to make this token logic independant of each api call so that it is global. An interceptor intercept all request outgoing or ingoing to make modification to them. So we can create a service that deal with interception.
+To make json web token authentication, we need to pass token to the server. It is convenient to make this token logic independent of each api call so that it is global. An interceptor intercept all request outgoing or ingoing to make modification to them. So we can create a service that deal with interception.
 
 ## Action definition of angular ngrx architecture
 
@@ -25,7 +25,7 @@ An other convention used in this file is :
 
 ## Define a async pipe thanks to ng-if
 
-Allow to define a aync variable globally in a structural directive \(_ngFor,_ ngIf\)
+Allow to define an async variable globally in a structural directive \(_ngFor,_ ngIf\)
 
 ## Use a template variable inside a component class
 

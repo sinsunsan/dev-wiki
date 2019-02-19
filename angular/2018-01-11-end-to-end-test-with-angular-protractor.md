@@ -4,7 +4,7 @@ title: End 2 End test with angular protractor
 published: true
 ---
 
-# 2018-01-11-end-to-end-test-with-angular-protractor
+# E2e tests with protactor
 
 Protractor is the main framework in angular to perfom e2e tests. You can find the official documentation here : [http://www.protractortest.org/\#/](http://www.protractortest.org/#/)
 

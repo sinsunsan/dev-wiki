@@ -93,7 +93,7 @@
 * [2016-12-15-recommanded-tutorial-for-angular2](2016-12-15-recommanded-tutorial-for-angular2.md)
 * [2016-12-15-JSPM-package-manager](2016-12-15-jspm-package-manager.md)
 * [Angular](angular/README.md)
-  * [2018-01-11-end-to-end-test-with-angular-protractor](angular/2018-01-11-end-to-end-test-with-angular-protractor.md)
+  * [E2e tests with protactor](angular/2018-01-11-end-to-end-test-with-angular-protractor.md)
   * [2016-12-6-angular2-main-differences-with-angular-1](angular/2016-12-6-angular2-main-differences-with-angular-1.md)
   * [2017-01-31-angular2-libraries](angular/2017-01-31-angular2-libraries.md)
 

@@ -4,19 +4,21 @@ title: My webstorm config
 published: true
 ---
 
+# 2017-10-23-web-storm-configuration
+
 More a cheatsheet for my webstorm usage or when I need to install it again.
 
-### Settings to set
+## Settings to set
 
-* Theme: Appearance > theme > darcula
-* Tslint : enable and choose a configuration file (enabled by default)
+* Theme: Appearance &gt; theme &gt; darcula
+* Tslint : enable and choose a configuration file \(enabled by default\)
 * Typescript : disable typescript compiler
-* Disable typo: editor > inspections > spelling > typo
-* Set indent to 2: editor > code style > typescript, javascript, pug, sass) > and set ident to 2 save in the IDE and in the project
+* Disable typo: editor &gt; inspections &gt; spelling &gt; typo
+* Set indent to 2: editor &gt; code style &gt; typescript, javascript, pug, sass\) &gt; and set ident to 2 save in the IDE and in the project
 
-### Plugins to install 
+## Plugins to install
 
-Preferences > Plugins > 
+Preferences &gt; Plugins &gt;
 
 * Markdown 
 

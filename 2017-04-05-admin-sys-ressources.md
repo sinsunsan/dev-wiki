@@ -4,9 +4,8 @@ title: Admin sys ressources
 published: false
 ---
 
-
-## Cloud storage
+# Cloud storage
 
 * digital ocean
-
 * sturge ?
+

@@ -4,6 +4,8 @@ title: Javascript tutorials worth reading
 published: true
 ---
 
+# 2017-02-10-javascripts-tutorials-worth-reading
+
 ## Promises
 
 * How to chain promise patterns
@@ -13,11 +15,12 @@ published: true
 ## ES6
 
 * Spread operator examples
-[https://rainsoft.io/how-three-dots-changed-javascript/](https://rainsoft.io/how-three-dots-changed-javascript/)
+
+  [https://rainsoft.io/how-three-dots-changed-javascript/](https://rainsoft.io/how-three-dots-changed-javascript/)
 
 ## Ajax
 
-* How to use the native Xhr (ajax) API
+* How to use the native Xhr \(ajax\) API
 
 [https://blog.garstasio.com/you-dont-need-jquery/ajax/](https://blog.garstasio.com/you-dont-need-jquery/ajax/)
 
@@ -25,5 +28,5 @@ published: true
 
 * List and examples of design patterns in javascript  
 
+[https://addyosmani.com/resources/essentialjsdesignpatterns/book/\#decoratorpatternjavascript](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#decoratorpatternjavascript)
 
-[https://addyosmani.com/resources/essentialjsdesignpatterns/book/#decoratorpatternjavascript](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#decoratorpatternjavascript)

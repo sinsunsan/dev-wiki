@@ -3,9 +3,12 @@ layout: post
 title: Angular 2 recipes / Tips and tricks
 published: true
 ---
-Tips & tricks for tricky but useful things in angular 2. The type of problems that are too small  to deserve a full blog post, and that you do not know how to name to search for.
 
-### Elvis operator and bracket notation
+# 2017-01-05-angular-recipes
+
+Tips & tricks for tricky but useful things in angular 2. The type of problems that are too small to deserve a full blog post, and that you do not know how to name to search for.
+
+## Elvis operator and bracket notation
 
 Bracket notation is javascript is an alternative to dot notation to display the content of an object. The main advantage is has is that you can use variable inside the bracket to display a property whose name depends of a variable.
 
@@ -13,23 +16,19 @@ Elvis operator is a syntax for angular 2 that allow to tell angular renderer to 
 
 From this [link](http://stackoverflow.com/questions/35768768/angular2-using-elvis-operator-on-object-key-with-forward-slash)
 
+The Elvis operator is only available for the . not for other dereference operators like \[\]. As a workaround use
 
-The Elvis operator is only available for the . not for other dereference operators like []. As a workaround use
-
-```
+```text
 data?.record ? data.record['name/first'] : null
 ```
 
-
-### Select an element of the DOM
-
+## Select an element of the DOM
 
 Well explained [here](http://stackoverflow.com/a/38944920/1453811)
 
-**Use ViewChild with #localvariable as shown here,**
+**Use ViewChild with \#localvariable as shown here,**
 
-
-```html
+```markup
 <textarea  #someVar  id="tasknote"
                   name="tasknote"
                   [(ngModel)]="taskNote"
@@ -39,8 +38,10 @@ Well explained [here](http://stackoverflow.com/a/38944920/1453811)
 
 </textarea>
 ```
+
 In component,
-```js
+
+```javascript
 //OLD Way
 import {ElementRef} from '@angular/core';
 
@@ -55,7 +56,7 @@ ngAfterViewInit()
 
 New API with renderer....
 
-```js
+```javascript
 //NEW Way
 import {ElementRef} from '@angular/core';
 
@@ -69,54 +70,51 @@ constructor(private rd: Renderer) {}
   }
 ```
 
-### Prevent error when module are failing to be imported
+## Prevent error when module are failing to be imported
 
-Module handling in JS is a headache. Sometimes it just don't works.
-But you still need to use a js lib the old way (with a script in the index.html).
+Module handling in JS is a headache. Sometimes it just don't works. But you still need to use a js lib the old way \(with a script in the index.html\).
 
-You can fool typescript to allow you to use the missing library (that will exist at run time).
+You can fool typescript to allow you to use the missing library \(that will exist at run time\).
 
-
-```js
+```javascript
 declare var braintree:any;
 ```
 
-### Object property binding & async pipe with bracket syntax
+## Object property binding & async pipe with bracket syntax
 
 Yes but how to use a bracket syntax with async syntax.
 
 [http://stackoverflow.com/questions/36803389/angular2-async-pipe-not-does-not-fill-object-data-into-template](http://stackoverflow.com/questions/36803389/angular2-async-pipe-not-does-not-fill-object-data-into-template)
 
-I have an observable that I want to pass to a component.
-Once passed I want a sub property that is static in that case : the first item of an array.
-Or may be dynamic, a component property.    
+I have an observable that I want to pass to a component. Once passed I want a sub property that is static in that case : the first item of an array. Or may be dynamic, a component property.
 
-The problem is that : `(imagesFB | async)[0]` would fail because the item does not exist at first and the async is for imagesFB not for the resulting array that (imagesFB | async) return.
+The problem is that : `(imagesFB | async)[0]` would fail because the item does not exist at first and the async is for imagesFB not for the resulting array that \(imagesFB \| async\) return.
 
 So with a ternary syntax :
 
-```
+```text
  (bolean) ? /* code if true */ : /* code if false */ ;`
 ```
 
 We do the trick.
 
-````
-ui-gallery-image([image]="(imagesFB | async) ? (imagesFB | async)[0] : null")
-````
+```text
+ui-gallery-image([image]="(imagesFB | async) ? (imagesFB | async)[0] : null")
+```
 
-### Instanciation of class or static method
+## Instanciation of class or static method
 
-There is 3 keywords that can be used in a class.
-To defined a property or method
+There is 3 keywords that can be used in a class. To defined a property or method
 
 * **public** to get the method available from other classes
 * **private** to get it only usable inside the class
 * **static** allow to use a class without instantiating it
-Instantiate a class, is creating a local copy of it. For example if we are in a component, that mean that we are using an instance of a class.
-An instance is creating by passing it to the component constructor like this.
 
-````js
+  Instantiate a class, is creating a local copy of it. For example if we are in a component, that mean that we are using an instance of a class.
+
+  An instance is creating by passing it to the component constructor like this.
+
+```javascript
 import { UploadService }         from '../../../services/api/upload.service'
 
 export class UiUploadUploadcareComponent {
@@ -129,11 +127,11 @@ export class UiUploadUploadcareComponent {
     // we use the instance of the class with this
     this.uploadService.upload()
   }
-````
+```
 
 But by using static we do not need, and we cannot actually create a local instance
 
-````js
+```javascript
 import { StaticService }         from '../../../services/static.service'
 
 export class UiUploadUploadcareComponent {
@@ -147,14 +145,13 @@ export class UiUploadUploadcareComponent {
     // of StaticService  class without the this keyword
     StaticService.useStaticClass()
   }
-````
+```
 
-
-### Simplify module definition with the spread operator
+## Simplify module definition with the spread operator
 
 * [Doc of spread operator](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
-````js
+```javascript
 @NgModule({
   imports: [
     ...MODULES
@@ -169,12 +166,11 @@ export class UiUploadUploadcareComponent {
     ...COMPONENTS
   ]
 })
-````
+```
 
-### Export of modules to be compatible with lazy loading, AOT and universal angular
+## Export of modules to be compatible with lazy loading, AOT and universal angular
 
-````js
-
+```javascript
 const PIPES = [
   // put pipes here
 ];
@@ -212,11 +208,11 @@ export class SharedModule {
     };
   }
 }
-````
+```
 
-### Navigate to a defined page in the component or service
+## Navigate to a defined page in the component or service
 
-````js
+```javascript
 import { ActivatedRoute, Router }           from '@angular/router';
 
 // Component definition
@@ -229,15 +225,13 @@ constructor(
 // Inside a component method
 
 this.router.navigate([], { queryParams: {step : this.order.step}, relativeTo: this.route });
-````
+```
 
-### Do somethings after 2 or more promises resolve
+## Do somethings after 2 or more promises resolve
 
-Usage of Rxjs Observable.combineLatest to do something and combine the results of
-the 2 or more promises resolved.
+Usage of Rxjs Observable.combineLatest to do something and combine the results of the 2 or more promises resolved.
 
-
-````js
+```javascript
 import { Observable } from 'rxjs'
 
 Observable.combineLatest(
@@ -247,46 +241,44 @@ Observable.combineLatest(
     .subscribe(results => {
       // DO something
     })
-````
+```
 
+## Redirect to the same path but changing one query params
 
-### Redirect to the same path but changing one query params
+The trick is \[\] to tell same page.
 
-The trick is [] to tell same page.
-
-````js
+```javascript
 this.router.navigate([], { relativeTo: this.route, queryParams: { step: this.steps[0] } });
-````
+```
 
-### Redirect to the same path changing only the last path parameter
+## Redirect to the same path changing only the last path parameter
 
-The trick  is to use relative path syntax of angular 2 router
+The trick is to use relative path syntax of angular 2 router
 
-````js
-
+```javascript
 // change orderId only while we are at order/22 for example
 // but keeping all parameters
 this.router.navigate(['../', this.order._id], { queryParams: this.params, relativeTo: this.route });
 
 // For this  path (defined in routing configuration)
 { path: 'order/:orderId', component: SROrderPage },
-````
+```
 
-
-### watching queryparams and params changes
+## watching queryparams and params changes
 
 * **queryparams**  are optional `?step=2&lang=fr` so step and lang
 * **params** are in the path `/project/:projectId` so project Id in that cas
 
-For both we use the Activated route service, so we  place in our constructor
+For both we use the Activated route service, so we place in our constructor
 
-````js
+```javascript
 constructor(
     private route: ActivatedRoute) {}
-````
+```
 
-then we set a watcher in our ngInit()
-````js
+then we set a watcher in our ngInit\(\)
+
+```javascript
 ngOnInit() {
       this.route
       .params
@@ -304,36 +296,36 @@ ngOnInit() {
       });
 
   }
-````
+```
 
 For query params read this [good tuto](https://angular-2-training-book.rangle.io/handout/routing/query_params.html) for more info
 
-### Execute a js library outside of the scope of angular 
+## Execute a js library outside of the scope of angular
 
-Angular run inside an execution context so is not accesible in the global scope of the page. But some libraries  like jquery exist in the global scope of the page. 
+Angular run inside an execution context so is not accesible in the global scope of the page. But some libraries like jquery exist in the global scope of the page.
 
 So here is an example on [how to run a jquery library from an angular component](https://github.com/devmark/ngx-slick/blob/master/src/slick.component.ts).
 
 Import of the NgZone module
 
-````js 
+```javascript
 import {
     Component, Input, Output, EventEmitter, NgZone, forwardRef, AfterViewInit,
     OnDestroy, Directive, ElementRef, Host
 } from '@angular/core';
-````
+```
 
 Definition in the component constructor
 
-````js
+```javascript
 constructor(private el: ElementRef, private zone: NgZone) {
-````
-Use of 
-this.zone.runOutsideAngular(() => {
+```
 
-  to switch execution zone
+Use of this.zone.runOutsideAngular\(\(\) =&gt; {
 
- ````js
+to switch execution zone
+
+```javascript
    /**
      * init slick
      */
@@ -369,19 +361,20 @@ this.zone.runOutsideAngular(() => {
             });
         });
     }
-````
+```
 
+## Add even, odd and last class to ngFor
 
-### Add even, odd and last class to ngFor 
-
-````pug
+```text
 div(
     *ngFor="let item of item; let last = last; let odd = odd; let even = even; let index = index;",
     [ngClass]="{'odd': odd,'even': even,'last': last}", 
     class="item item-{{ index }}")
-````
-will result in 
-````html
+```
+
+will result in
+
+```markup
 <div class="item odd item-1">
 First item
 </div>
@@ -391,24 +384,20 @@ Second item
 <div class="item odd last item-2">
 Third item
 </div>
-````
+```
 
-### Dynamic templates
+## Dynamic templates
 
-In angular 2 your can use dynamic templates 
-called by name 
-Primeng library make heavy use of it, you can see as an illustration 
-[templates definitions here](https://github.com/primefaces/primeng/blob/master/src/app/components/common/shared.ts)
+In angular 2 your can use dynamic templates called by name Primeng library make heavy use of it, you can see as an illustration [templates definitions here](https://github.com/primefaces/primeng/blob/master/src/app/components/common/shared.ts)
 
-
-### Injection parent component in child component 
+## Injection parent component in child component
 
 Example and explanations in the [slick-carousel integration](https://hackernoon.com/wrap-any-jquery-plugin-with-angular-2-component-case-study-8b00eacec998) tutorial
 
-* **@ContentChildren()** allow  to have a reference to a child component in the parent component 
-* **@Host()** allow  to have a reference to a parent component in the child component 
+* **@ContentChildren\(\)** allow  to have a reference to a child component in the parent component 
+* **@Host\(\)** allow  to have a reference to a parent component in the child component 
 
-````ts
+```typescript
 @Directive({
   selector: '[slick-carousel-item]',
 })
@@ -422,37 +411,31 @@ export class SlickCarouselItem {
     this.carousel.removeSlide(this);
   }
 }
-````
+```
 
-
-### Http interceptor
+## Http interceptor
 
 Http intercetptor intercept http requests for example to add a token to all API request.
 
 Define interceptor service in the app.module.ts
-<script src="https://gist.github.com/sinsunsan/fabb4e7dc983967b902b272b338f0516.js"></script>
 
 Example of intecptor file
-<script src="https://gist.github.com/sinsunsan/bb490aafddbf10dfa88ba24cd7b799ec.js"></script>
 
+## Execute a function with a delay in an angular component
 
-### Execute a function with a delay in an angular component
+## Use environnement variable in your component or service
 
-<script src="https://gist.github.com/sinsunsan/d7aa65e35a377d3f4b71b7162f4d1a26.js"></script>
+[https://medium.com/beautiful-angular/angular-2-and-environment-variables-59c57ba643be](https://medium.com/beautiful-angular/angular-2-and-environment-variables-59c57ba643be)
 
+## Async handling automation and Progressive Web app
 
-### Use environnement variable in your component or service 
+[https://medium.com/@cyrilletuzi/angular-async-pipe-everywhere-with-ngx-pwa-offline-d8de68845c81](https://medium.com/@cyrilletuzi/angular-async-pipe-everywhere-with-ngx-pwa-offline-d8de68845c81)
 
-https://medium.com/beautiful-angular/angular-2-and-environment-variables-59c57ba643be
+## Sharing data / method between component
 
-### Async handling automation and Progressive Web app 
+[https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/](https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/)
 
-https://medium.com/@cyrilletuzi/angular-async-pipe-everywhere-with-ngx-pwa-offline-d8de68845c81
+## Setup of universal server side rendering \(updated\)
 
-### Sharing data / method between component 
+[https://angularfirebase.com/lessons/server-side-rendering-firebase-angular-universal/](https://angularfirebase.com/lessons/server-side-rendering-firebase-angular-universal/)
 
-https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/
-
-### Setup of universal server side rendering (updated)
-
-https://angularfirebase.com/lessons/server-side-rendering-firebase-angular-universal/

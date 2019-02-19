@@ -4,11 +4,9 @@ title: Blue bird missing doc / the essential function decrypted
 published: true
 ---
 
+# 2017-03-29-blue-bird-missing-doc
 
-Blue bird is a great library of promise for front end (angular) and backend (node).
-But its documentation is definitely not good.
-Let's list and explain shorty the difference between each useful functions this library provide.
-
+Blue bird is a great library of promise for front end \(angular\) and backend \(node\). But its documentation is definitely not good. Let's list and explain shorty the difference between each useful functions this library provide.
 
 [Blue bird documentation](http://bluebirdjs.com/)
 
@@ -16,32 +14,28 @@ Let's list and explain shorty the difference between each useful functions this 
 
 * Sequential or Parallel processing
 
-**Sequential** processing means each promises is processed one after the other.
-Could be useful if you want to have a control on the flow of processing. Or if you need the result of previous promise to process the next.
+**Sequential** processing means each promises is processed one after the other. Could be useful if you want to have a control on the flow of processing. Or if you need the result of previous promise to process the next.
 
 **Parallel** processing means the promises are processed at the same time. You cannot garanty that the order will be preserved.
 
-
 ## 2 anti pattern not to fall in
 
-* Creating an explicit promise that wrap an already promise
-http://bluebirdjs.com/docs/anti-patterns.html#the-explicit-construction-anti-pattern
+* Creating an explicit promise that wrap an already promise [http://bluebirdjs.com/docs/anti-patterns.html\#the-explicit-construction-anti-pattern](http://bluebirdjs.com/docs/anti-patterns.html#the-explicit-construction-anti-pattern)
+* [http://bluebirdjs.com/docs/anti-patterns.html\#the-explicit-construction-anti-pattern](http://bluebirdjs.com/docs/anti-patterns.html#the-explicit-construction-anti-pattern)
 
-* http://bluebirdjs.com/docs/anti-patterns.html#the-explicit-construction-anti-pattern
-```js
-then((success) => { }, error=> { })
-```
-instead of
-```js
-then(() => {
+  ```javascript
+  then((success) => { }, error=> { })
+  ```
 
-})
-.catch(() => {
+  instead of
 
-})
-```
+  \`\`\`js then\(\(\) =&gt; {
 
+}\) .catch\(\(\) =&gt; {
 
+}\)
+
+```text
 ##  Useful bluebird function
 
 * **Promise.all**
@@ -72,11 +66,11 @@ join(getPictures(), getComments(), getTweets(),
 
 * [**Promise.some**](http://bluebirdjs.com/docs/api/promise.some.html)
 
-The same that lodash `_.some` but with promises and with the count parameter that allow  to tell the minimal promises that need to be fullfilled before
+The same that lodash `_.some` but with promises and with the count parameter that allow to tell the minimal promises that need to be fullfilled before
 
 Example of the doc log only the 2 fastest server to respond.
 
-````js
+```javascript
 Promise.some([
     ping("ns1.example.com"),
     ping("ns2.example.com"),
@@ -85,14 +79,13 @@ Promise.some([
 ], 2).spread(function(first, second) {
     console.log(first, second);
 });
-````
+```
 
 * [**Promise.props**](http://bluebirdjs.com/docs/api/promise.props.html)
 
-Use the properties of an object to define promise to be perfomed.
-The advantage is that the result is accessible with the same properties name that the input object.
-Giving the benefit of the spread() operator (instead of the then())
-```js
+Use the properties of an object to define promise to be perfomed. The advantage is that the result is accessible with the same properties name that the input object. Giving the benefit of the spread\(\) operator \(instead of the then\(\)\)
+
+```javascript
 Promise.props({
     pictures: getPictures(),
     comments: getComments(),
@@ -102,9 +95,9 @@ Promise.props({
 });
 ```
 
-* [**finally()**](http://bluebirdjs.com/docs/api/finally.html)
+* [**finally\(\)**](http://bluebirdjs.com/docs/api/finally.html)
 
-````js
+```javascript
 Promise.all([
   /* Array of promises */
 
@@ -118,15 +111,12 @@ Promise.all([
 .finally(() => {
   // To do after the then() or catch() indepedantly of the Promise faith (success or errors)
 })
-````
+```
 
-* [**cancel()**](http://bluebirdjs.com/docs/api/cancel.html)
-  Cancel a promise if it has not been received already
+* [**cancel\(\)**](http://bluebirdjs.com/docs/api/cancel.html) Cancel a promise if it has not been received already
+* [**spread\(\)**](http://bluebirdjs.com/docs/api/spread.html) The result of promise.all is an array of promises return, but what if you want to define them as parameters ?
 
-* [**spread()**](http://bluebirdjs.com/docs/api/spread.html)
-  The result of promise.all is an array of promises return, but what  if you want to define them as parameters ?
-
-````js
+```javascript
  let arrayOfPromises = [
    promise1,
    promise2
@@ -142,13 +132,13 @@ Promise.all([
       console.log("return of promise1 " , result[0]);
       console.log("return of promise2 " , result[2]);
   });
-````
+```
 
-  * [Global rejection error hook](http://bluebirdjs.com/docs/api/error-management-configuration.html#global-rejection-events)
+* [Global rejection error hook](http://bluebirdjs.com/docs/api/error-management-configuration.html#global-rejection-events)
 
 Allow to do something globally when error occured
 
-````js
+```javascript
   // NOTE: event name is camelCase as per node convention
   process.on("unhandledRejection", function(reason, promise) {
       // See Promise.onPossiblyUnhandledRejection for parameter documentation
@@ -158,13 +148,13 @@ Allow to do something globally when error occured
   process.on("rejectionHandled", function(promise) {
       // See Promise.onUnhandledRejectionHandled for parameter documentation
   });
-````
+```
 
-* **[isFullfilled]**(http://bluebirdjs.com/docs/api/isfulfilled.html)
+* **\[isFullfilled\]**\([http://bluebirdjs.com/docs/api/isfulfilled.html](http://bluebirdjs.com/docs/api/isfulfilled.html)\)
 
 test if the promise is fullfilled
 
-````js
+```javascript
 let mypromise = Promise.all()
 // More code
 
@@ -173,4 +163,5 @@ timeout(500, () => {
     console.log('still not done')
   }
 })
-````
+```
+

@@ -4,7 +4,7 @@ layout: post
 title: JSPM A good alternative to web pack
 ---
 
-# 2016-12-15-JSPM-package-manager
+# JSPM package manager
 
 Jspm is an alternative to using webpack. It's philosophy is quite different and intersting. Here is what you need to know about it.
 

@@ -4,7 +4,7 @@ title: X ways to communicate between component in angular 2
 published: false
 ---
 
-# 2017-08-07-different-ways-to-communicate-between-component-in-angular2
+# Angular 2 communication between components
 
 ## @input @output
 
@@ -12,7 +12,7 @@ published: false
 
 ## @Host\(\) && @Contentchildren\(\)
 
-To be used when compoents child and parent work intrically together like a item component and a list item... and you want to make accessible from the exterior only the parent component for example
+To be used when components child and parent work intricately together like an item component and a list item... and you want to make accessible from the exterior only the parent component for example
 
 @Host allow to have access to the parent component within the child component. Instead of passing the data from parent to child thanks to @Input. It could be more convenient to use @Host\(\).
 
@@ -26,7 +26,7 @@ The advantages are :
 
 ## Use services
 
-Services are in angula a way to extract logic from the components to be used everywhere. Services are mostly used to get data from the API and as utility services to package data handling logic...or to provide utility like logging, web soket...
+Services are in angular a way to extract logic from the components to be used everywhere. Services are mostly used to get data from the API and as utility services to package data handling logic...or to provide utility like logging, web socket...
 
 ## Component that extend a parent component
 
@@ -34,9 +34,9 @@ Services are in angula a way to extract logic from the components to be used eve
 export class WidgetMessageComponent  extends WidgetComponent implements OnInit
 ```
 
-This syntax use prototypal inheritance to make `WidgetMessageComponent` a sub class of `WidgetComponent`
+This syntax uses prototypal inheritance to make `WidgetMessageComponent` a sub class of `WidgetComponent`
 
-Pratically :
+Practically :
 
 * the @component decorator is not overridable 
 * any properties, functions defined in inherited component is also available in the component that inherited it 

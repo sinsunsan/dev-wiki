@@ -4,7 +4,7 @@ title: angular 2 selected libraries
 published: true
 ---
 
-# 2017-01-31-angular2-libraries
+# Angular 2 libraries
 
 Angular 2 libraries are less numerous than angular 1 equivalents, but they are growing fast. The good point is that you do not loose to much time finding the right one, as it used to be the case with angular 1. And as angular 2 is much clearer, they are generally easier to understand with less code, no dependency to jQuery...
 
@@ -17,13 +17,13 @@ Angular 2 libraries are less numerous than angular 1 equivalents, but they are g
 
 ### Font & icon
 
-* **angular2-fontawesome** Font awesome wrapper,  make the icon a component or a directive and make font awesome options customisable
+* **angular2-fontawesome** Font awesome wrapper,  make the icon a component or a directive and make font awesome options customizable
 
 [https://github.com/travelist/angular2-fontawesome](https://github.com/travelist/angular2-fontawesome)
 
 ### Layout
 
-* **flex layout** api on top of flexbox to automatize flex code and take account of breakpoint ...
+* **flex layout** api on top of flexbox to automatize flex code and take account of breakpoints ...
 
   Use directives to styles the page. Is independent of Angular material.
 
@@ -71,7 +71,7 @@ We have put our [the angular 2 & 4 UI components libraries](https://github.com/s
 
   **Events**
 
-* **ng-radio** a message bus for angular to replace missing $cope.$emit and allow sibling components to talk and more generally global casting of a message. Use RxJs [https://github.com/govorov/ng-radio](https://github.com/govorov/ng-radio)
+* **ng-radio** a message bus for angular to replace missing $scope.$emit and allow sibling components to talk and more generally global casting of a message. Use RxJs [https://github.com/govorov/ng-radio](https://github.com/govorov/ng-radio)
 * **angular2 notification** : toaster or browser notification to confirm events...
 
   [https://github.com/flauc/angular2-notifications](https://github.com/flauc/angular2-notifications)
@@ -100,7 +100,7 @@ Angular 2 markdown make also the auto-linking, you can see all markdown styles i
 
 ## Logging
 
-* **ngLogger** a logger service for angular : allow to disable loging to group log....
+* **ngLogger** a logger service for angular : allow disabling logging to group log....
 
 [https://github.com/noemi-salaun/ng-logger](https://github.com/noemi-salaun/ng-logger)
 
@@ -110,7 +110,7 @@ Angular 2 markdown make also the auto-linking, you can see all markdown styles i
 
 [https://github.com/nogorilla/angular-cc-library](https://github.com/nogorilla/angular-cc-library)
 
-* [ng2 validation](https://github.com/yuyang041060120/ng2-validation) / Add many form  validator to default one
+* [ng2 validation](https://github.com/yuyang041060120/ng2-validation) / Add many forms  validator to default one
 
 ## Data
 
@@ -136,7 +136,7 @@ Angular 2 markdown make also the auto-linking, you can see all markdown styles i
 * **ng2-page-scroll** Scroll in the page [https://github.com/Nolanus/ng2-page-scroll](https://github.com/Nolanus/ng2-page-scroll)
 * **ng2-scroll-to** Have the advantage of allowing to scroll inside an element. No service to though [https://github.com/drusso85/ng2-scroll-to](https://github.com/drusso85/ng2-scroll-to)
 * **ng2-scroll-to-el** [https://github.com/MarcinMichalik/ng-scrollTo](https://github.com/MarcinMichalik/ng-scrollTo)
-* **Angular Perfect Scrollbar** Wrapper for perfect scroll bar, a lib to customise the scrollbars
+* **Angular Perfect Scrollbar** Wrapper for perfect scroll bar, a lib to customize the scrollbars
 
 [https://github.com/zefoy/ngx-perfect-scrollbar](https://github.com/zefoy/ngx-perfect-scrollbar)
 
@@ -215,5 +215,5 @@ Angular 2 markdown make also the auto-linking, you can see all markdown styles i
 
 ### Utility
 
-* Generate UUID in the front end[https://github.com/wulfsolter/angular2-uuid](https://github.com/wulfsolter/angular2-uuid)
+* Generate UUID in the front end [https://github.com/wulfsolter/angular2-uuid](https://github.com/wulfsolter/angular2-uuid)
 

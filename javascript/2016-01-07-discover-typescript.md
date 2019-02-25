@@ -4,9 +4,9 @@ title: Typescript / The future of javascript now!
 published: true
 ---
 
-# 2016-01-07-discover-typescript
+# Typescript
 
-Typescript is a subset of javascript. That mean that all javascript ES5, 6 ... is valid typescript, but typescript add many useful features. The more important is the hard typings but not only.
+Typescript is a subset of JavaScript. That mean that all javascript ES5, 6 ... is valid typescript, but typescript add many useful features. The more important is the hard typings but not only.
 
 Like ES6 and all new javascript brand, it need to be compiled to current javascript so that actual browsers can interpret it.
 

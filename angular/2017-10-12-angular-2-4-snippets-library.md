@@ -4,7 +4,7 @@ title: Library of angular 2-4-5  code example and snippets
 published: true
 ---
 
-# 2017-10-12-angular-2-4-snippets-library
+# Angular snippet library
 
 ## http interceptor to add a token to all outgoing request
 

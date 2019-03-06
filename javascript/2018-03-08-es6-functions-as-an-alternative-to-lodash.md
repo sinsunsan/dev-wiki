@@ -4,9 +4,9 @@ title: Javascript and ES6 functions to use as an alternative to lodash
 published: true
 ---
 
-# 2018-03-08-ES6-functions-as-an-alternative-to-lodash
+# Alternative from lodash using ES6
 
-Lodash is great, we have an article about [most useful lodash functions](http://dev.sebastienlucas.com/lodash-best-of/). But those functions are pretty low level. They should be at the level of the language itself javascript. With ES5 / ES6, javascript got more powerful, so it is time to stop using some of lodash function to use their native equivalent. The advantage is that we could more easily tweak the function for our needs which is not possible with lodash. And get more knowledge and confidence about ES6. And also get rid of lodash entirely to have less dependencies.
+Lodash is great, we have an article about [most useful lodash functions](http://dev.sebastienlucas.com/lodash-best-of/). But those functions are pretty low level. They should be at the level of the language itself JavaScript. With ES5 / ES6, JavaScript got more powerful, so it is time to stop using some of lodash function to use their native equivalent. The advantage is that we could more easily tweak the function for our needs which is not possible with lodash. And get more knowledge and confidence about ES6. And also get rid of lodash entirely to have fewer dependencies.
 
 Lodash alternatives are compiled in this repository, please contribute [https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore)
 

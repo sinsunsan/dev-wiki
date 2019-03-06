@@ -8,21 +8,9 @@ published: true
 
 ![](https://github.com/sinsunsan/dev-wiki/tree/e91a89337cb472fad5198a7110a0eaa8d63d66f5/images/global-warming-ile-de-sein.jpg)
 
-This article is a in progress compilation of links to demonstrate why global warming will probably be the last error of the not so long history of humanity and make earth inhabitable.
+This article is an in progress compilation of links to demonstrate why global warming will probably be the last error of the not so long history of humanity and make earth inhabitable.
 
-But do not lose all esperances, we may prevent that sad end by putting in pratice existing solutions, changing the way we all behave and imagine new solutions that we try to compile in the sibling article: [Global Warming : the humanity will survive](http://dev.sebastienlucas.com/global-warming-we-will-survive)
-
- [Global problems](2017-07-25-global-warming-we-will-die.md#global)
-
- [Sea rise](2017-07-25-global-warming-we-will-die.md#sea-rise)
-
- [Carbon effects](2017-07-25-global-warming-we-will-die.md#carbon)
-
- [Bio-diversity fall](2017-07-25-global-warming-we-will-die.md#biodiversity)
-
- [OCean](2017-07-25-global-warming-we-will-die.md#ocean)
-
- [Alimentation](2017-07-25-global-warming-we-will-die.md#allimentation)
+But do not lose all esperances, we may prevent that sad end by putting in pratice existing solutions, changing the way we all behave and imagine new solutions that we try to compile in the sibling article: [Global Warming : the humanity will surviv](http://dev.sebastienlucas.com/global-warming-we-will-survive)e
 
 ## Global <a id="global"></a>
 

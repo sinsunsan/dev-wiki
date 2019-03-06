@@ -12,7 +12,7 @@ Like ES6 and all new javascript brand, it need to be compiled to current javascr
 
 ## Resources
 
-* Type script official documentation [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+* Typescript official documentation [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 * An open source book on typescript [https://basarat.gitbooks.io/typescript](https://basarat.gitbooks.io/typescript)
 
 ## Questions about d.ts file
@@ -35,7 +35,7 @@ The function parameters are defined only. Not the content of the function as it 
 Let's start to identify the syntax of function parameters :
 
 * **title** is the first argument and should be a string
-* **message** is the second argument and should be a string, it is an optional parameter it don't produce an error if not provided.
+* **message** is the second argument and should be a string, it is an optional parameter it doesn't produce an error if not provided.
 * **type** is optional and is not using a standard type but a custom type SweetAlertType that is defined elsewhere
 * `: Promise<any>` refer to what the function should return. It should return a Promise with a collection / array of element of any types
 

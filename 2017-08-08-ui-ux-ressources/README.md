@@ -4,13 +4,13 @@ title: UI / UX Ressources
 published: true
 ---
 
-# 2017-08-08-UI-UX-ressources
+# UI-UX
 
-UI evolve with the sites and apps that use it. As in other fields, examples are key to understand and test new concepts, but as we daily use User Interface we often do not notice all details. So collection fragment of UI and categorize them is a good pratice to be able to use them when needed.
+UI evolve with the sites and apps that use it. As in other fields, examples are key to understand and test new concepts, but as we daily use User Interface we often do not notice all details. So collection fragment of UI and categorize them is a good practice to be able to use them when needed.
 
 ## Resources
 
-* [Building a design system](https://www.youtube.com/watch?v=fELHlAVFaaU) 1hour video on how to pratically build a consisten design system
+* [Building a design system](https://www.youtube.com/watch?v=fELHlAVFaaU) 1hour video on how to practically build a consistent design system
 
 ## UI inspirations
 
@@ -37,10 +37,10 @@ UI evolve with the sites and apps that use it. As in other fields, examples are 
 ### Colors Tools
 
 * [Colors.css](http://clrs.cc/) Nice replacement for web default colors\(named colors\) also a [github project](https://github.com/mrmrs/colors)
-* [Paletton](http://paletton.com/) Good tool de generate a pallette depending of rules, simulation contrast, simulation of design integration, of color blindness....
-* [Coesive colors](http://javier.xyz/cohesive-colors/) Get a more unified pallette by applying an overlay on it
-* [Color hunt](http://www.colorhunt.co/) Product hunt for colors / new pallettes published daily with like system
-* [Adobe color](https://color.adobe.com/) Adobe tool for color pallette
+* [Paletton](http://paletton.com/) Good tool to generate a palette depending on of rules, simulation contrast, simulation of design integration, of color blindness....
+* [Coesive colors](http://javier.xyz/cohesive-colors/) Get a more unified palette by applying an overlay on it
+* [Color hunt](http://www.colorhunt.co/) Product hunt for colors / new palettes published daily with like system
+* [Adobe color](https://color.adobe.com/) Adobe tool for color palette
 
 ## Rules & Books
 

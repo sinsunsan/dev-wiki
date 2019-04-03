@@ -4,7 +4,7 @@ title: New features in CSS or features you have missed
 published: true
 ---
 
-# 2017-04-03-news-in-css
+# New things in scss
 
 CSS is still evoluting.
 

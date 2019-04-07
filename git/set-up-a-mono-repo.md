@@ -12,7 +12,13 @@ description: Set up a mono repo from a splitted code base
 
 #### Migrating without losing git history
 
-[https://medium.com/lgtm/migrating-to-the-monorepo-582106142654](https://medium.com/lgtm/migrating-to-the-monorepo-582106142654)
+* [https://medium.com/lgtm/migrating-to-the-monorepo-582106142654](https://medium.com/lgtm/migrating-to-the-monorepo-582106142654)
+
+#### Using Lerna with typescript projects 
+
+* [https://blog.logrocket.com/setting-up-a-monorepo-with-lerna-for-a-typescript-project-b6a81fe8e4f8](https://blog.logrocket.com/setting-up-a-monorepo-with-lerna-for-a-typescript-project-b6a81fe8e4f8)
+
+
 
 
 

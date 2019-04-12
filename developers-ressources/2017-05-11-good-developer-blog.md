@@ -4,11 +4,11 @@ title: Good developer blogs
 published: true
 ---
 
-# 2017-05-11-good-developer-blog
+# Good developers blogs
 
 Developer that blog are developer who want to share their knowledge. It allow us to make our knowledge about coding more formalized and clearer in our head.
 
-Here is a working progress article where I list some intersting blogger blog.
+Here is a work in progress article where I list some interesting blogger blog.
 
 ## Individual developers
 

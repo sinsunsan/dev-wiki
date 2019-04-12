@@ -4,7 +4,7 @@ title: Angular Ngrx tips and code examples
 published: true
 ---
 
-# 2018-04-08-ngrx-tips-and-code-example
+# Angular NGRX / Tips and code examples
 
 You can learn ngrx by watching the lesson of Todd Motto here. It is the most complete and linear way to learn ngrx. You should do this before diving into more precise topics. [https://platform.ultimateangular.com/courses/ngrx-store-effects](https://platform.ultimateangular.com/courses/ngrx-store-effects)
 

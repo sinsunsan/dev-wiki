@@ -3,7 +3,7 @@ published: true
 title: Debug tips & tricks for Node js
 ---
 
-# 2017-01-16-debug-nodejs
+# Debug node.js
 
 A few debug tricks learned the hard way.
 

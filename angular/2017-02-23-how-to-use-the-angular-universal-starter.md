@@ -4,9 +4,13 @@ title: Practical guide to use angular 2 universal starter
 published: true
 ---
 
-# 2017-02-23-how-to-use-the-angular-universal-starter
+# Angular universal starter 2/2 \(old\)
 
-## This tutorial is quick old and no relevant any more
+
+
+{% hint style="danger" %}
+#### This tutorial is quick old and no relevant any more with new angular versions
+{% endhint %}
 
 You can find updated information in the angular university article about [angular universal](https://blog.angular-university.io/angular-universal/)
 

@@ -4,7 +4,13 @@ title: Angular 2 Universal Introduction (server side rendering)
 published: true
 ---
 
-# 2017-02-19-universal-angular
+# Angular universal 1/1 \(old\)
+
+{% hint style="danger" %}
+#### This tutorial is quick old and no relevant any more with new angular versions
+
+Though the concept of what is angular universal style remain
+{% endhint %}
 
 We have written a more [step by step tuto to start with angular universal starter](http://dev.sebastienlucas.com/how-to-use-the-angular-universal-starter/).
 

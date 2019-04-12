@@ -4,7 +4,7 @@ title: Online learning for developers
 published: true
 ---
 
-# Platform to learn coding online
+# Platforms to learn coding online
 
 ## DATACAMP Machine learning Python
 

@@ -3,7 +3,7 @@ published: true
 title: My developer toolbox
 ---
 
-# 2016-12-21-developer-toolbox
+# Develop toolbox
 
 Developer tooling is important!  
 With good tools we lose less time in stupid things and can concentrate on the app specific stuff we are paid \(or not paid\) for.

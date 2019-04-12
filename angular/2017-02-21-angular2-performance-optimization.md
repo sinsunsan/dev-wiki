@@ -4,7 +4,7 @@ title: Angular 2 performance optimization
 published: true
 ---
 
-# 2017-02-21-Angular2-performance-optimization
+# Angular Perfomance optimization
 
 ## Enable Prod mode
 

@@ -2,27 +2,28 @@
 layout: post
 title: Angular 2 recipes / Tips and tricks
 published: true
+description: Some tips and tricks for specific cases in Angular
 ---
 
-# 2017-01-05-angular-recipes
+# Angular Recipes
 
 Tips & tricks for tricky but useful things in angular 2. The type of problems that are too small to deserve a full blog post, and that you do not know how to name to search for.
 
-## Elvis operator and bracket notation
+### Elvis operator and bracket notation
 
 Bracket notation is javascript is an alternative to dot notation to display the content of an object. The main advantage is has is that you can use variable inside the bracket to display a property whose name depends of a variable.
 
-Elvis operator is a syntax for angular 2 that allow to tell angular renderer to ignore template binding of sub-properties for object that does not exist yet. Indeed it is generally that the object is not yet loaded from the backend.
+Elvis operator is a syntax for angular 2 that allow telling angular renderer to ignore template binding of sub-properties for object that does not exist yet. Indeed, it is generally that the object is not yet loaded from the backend.
 
 From this [link](http://stackoverflow.com/questions/35768768/angular2-using-elvis-operator-on-object-key-with-forward-slash)
 
-The Elvis operator is only available for the . not for other dereference operators like \[\]. As a workaround use
+The Elvis operator is only available for the . notation, not for other operators like \[\]. As a workaround use
 
 ```text
 data?.record ? data.record['name/first'] : null
 ```
 
-## Select an element of the DOM
+### Select an element of the DOM
 
 Well explained [here](http://stackoverflow.com/a/38944920/1453811)
 
@@ -70,7 +71,7 @@ constructor(private rd: Renderer) {}
   }
 ```
 
-## Prevent error when module are failing to be imported
+### Prevent error when module are failing to be imported
 
 Module handling in JS is a headache. Sometimes it just don't works. But you still need to use a js lib the old way \(with a script in the index.html\).
 
@@ -80,7 +81,7 @@ You can fool typescript to allow you to use the missing library \(that will exis
 declare var braintree:any;
 ```
 
-## Object property binding & async pipe with bracket syntax
+### Object property binding & async pipe with bracket syntax
 
 Yes but how to use a bracket syntax with async syntax.
 
@@ -102,9 +103,9 @@ We do the trick.
 ui-gallery-image([image]="(imagesFB | async) ? (imagesFB | async)[0] : null")
 ```
 
-## Instanciation of class or static method
+### Instantiating a class or static method
 
-There is 3 keywords that can be used in a class. To defined a property or method
+There are 3 keywords that can be used in a class. To defined a property or method
 
 * **public** to get the method available from other classes
 * **private** to get it only usable inside the class
@@ -147,7 +148,7 @@ export class UiUploadUploadcareComponent {
   }
 ```
 
-## Simplify module definition with the spread operator
+### Simplify module definition with the spread operator
 
 * [Doc of spread operator](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 
@@ -168,7 +169,7 @@ export class UiUploadUploadcareComponent {
 })
 ```
 
-## Export of modules to be compatible with lazy loading, AOT and universal angular
+### Export of modules to be compatible with lazy loading, AOT and universal angular
 
 ```javascript
 const PIPES = [
@@ -210,7 +211,7 @@ export class SharedModule {
 }
 ```
 
-## Navigate to a defined page in the component or service
+### Navigate to a defined page in the component or service
 
 ```javascript
 import { ActivatedRoute, Router }           from '@angular/router';
@@ -227,7 +228,7 @@ constructor(
 this.router.navigate([], { queryParams: {step : this.order.step}, relativeTo: this.route });
 ```
 
-## Do somethings after 2 or more promises resolve
+### Do somethings after 2 or more promises resolve
 
 Usage of Rxjs Observable.combineLatest to do something and combine the results of the 2 or more promises resolved.
 
@@ -243,7 +244,7 @@ Observable.combineLatest(
     })
 ```
 
-## Redirect to the same path but changing one query params
+### Redirect to the same path but changing one query params
 
 The trick is \[\] to tell same page.
 
@@ -251,7 +252,7 @@ The trick is \[\] to tell same page.
 this.router.navigate([], { relativeTo: this.route, queryParams: { step: this.steps[0] } });
 ```
 
-## Redirect to the same path changing only the last path parameter
+### Redirect to the same path changing only the last path parameter
 
 The trick is to use relative path syntax of angular 2 router
 
@@ -264,7 +265,7 @@ this.router.navigate(['../', this.order._id], { queryParams: this.params, relati
 { path: 'order/:orderId', component: SROrderPage },
 ```
 
-## watching queryparams and params changes
+### watching queryparams and params changes
 
 * **queryparams**  are optional `?step=2&lang=fr` so step and lang
 * **params** are in the path `/project/:projectId` so project Id in that cas
@@ -300,9 +301,9 @@ ngOnInit() {
 
 For query params read this [good tuto](https://angular-2-training-book.rangle.io/handout/routing/query_params.html) for more info
 
-## Execute a js library outside of the scope of angular
+### Execute a js library outside of the scope of angular
 
-Angular run inside an execution context so is not accesible in the global scope of the page. But some libraries like jquery exist in the global scope of the page.
+Angular run inside an execution context so is not accessible in the global scope of the page. But some libraries like jQuery exist in the global scope of the page.
 
 So here is an example on [how to run a jquery library from an angular component](https://github.com/devmark/ngx-slick/blob/master/src/slick.component.ts).
 
@@ -363,7 +364,7 @@ to switch execution zone
     }
 ```
 
-## Add even, odd and last class to ngFor
+### Add even, odd and last class to ngFor
 
 ```text
 div(
@@ -386,11 +387,11 @@ Third item
 </div>
 ```
 
-## Dynamic templates
+### Dynamic templates
 
 In angular 2 your can use dynamic templates called by name Primeng library make heavy use of it, you can see as an illustration [templates definitions here](https://github.com/primefaces/primeng/blob/master/src/app/components/common/shared.ts)
 
-## Injection parent component in child component
+### Injection parent component in child component
 
 Example and explanations in the [slick-carousel integration](https://hackernoon.com/wrap-any-jquery-plugin-with-angular-2-component-case-study-8b00eacec998) tutorial
 
@@ -413,29 +414,33 @@ export class SlickCarouselItem {
 }
 ```
 
-## Http interceptor
+### Http interceptor
 
-Http intercetptor intercept http requests for example to add a token to all API request.
+Http interceptor intercept http requests for example to add a token to all API request.
 
 Define interceptor service in the app.module.ts
 
-Example of intecptor file
+Example of interceptor file
 
-## Execute a function with a delay in an angular component
+### Execute a function with a delay in an angular component
 
-## Use environnement variable in your component or service
+### Use environment variable in your component or service
 
 [https://medium.com/beautiful-angular/angular-2-and-environment-variables-59c57ba643be](https://medium.com/beautiful-angular/angular-2-and-environment-variables-59c57ba643be)
 
-## Async handling automation and Progressive Web app
+### Async handling automation and Progressive Web app
 
 [https://medium.com/@cyrilletuzi/angular-async-pipe-everywhere-with-ngx-pwa-offline-d8de68845c81](https://medium.com/@cyrilletuzi/angular-async-pipe-everywhere-with-ngx-pwa-offline-d8de68845c81)
 
-## Sharing data / method between component
+### Sharing data / method between component
 
 [https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/](https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/)
 
-## Setup of universal server side rendering \(updated\)
+### Setup of universal server side rendering \(updated\)
 
-[https://angularfirebase.com/lessons/server-side-rendering-firebase-angular-universal/](https://angularfirebase.com/lessons/server-side-rendering-firebase-angular-universal/)
+[https://angularfirebase.com/lessons/server-side-rendering-firebase-angular-universal/](https://angularfirebase.com/lessons/server-side-rendering-firebase-angular-universal/)\`
+
+### Angular Forms : setValue vs patchValue 
+
+[https://ultimatecourses.com/blog/angular-2-form-controls-patch-value-set-value](https://ultimatecourses.com/blog/angular-2-form-controls-patch-value-set-value)
 

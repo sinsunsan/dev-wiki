@@ -4,7 +4,7 @@ title: Unit test angular 5 with karma + jasmine
 published: true
 ---
 
-# 2018-01-16-unit-test-with-angular-karma-jasmine
+# Unit test / Angular
 
 ## Tutorials on testing
 

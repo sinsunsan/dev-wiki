@@ -3,7 +3,7 @@ published: true
 title: Debug tips & tricks for Angular 2
 ---
 
-# 2016-12-18-debug-angular2
+# Debug Angular
 
 A few debug tricks learned by the ways.
 

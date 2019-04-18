@@ -18,6 +18,12 @@
 
 {% embed url="https://www.thecodecampus.de/blog/nested-forms-in-angular/" %}
 
+{% embed url="https://medium.com/@joshblf/dynamic-nested-reactive-forms-in-angular-654c1d4a769a" %}
+
+{% embed url="https://medium.com/@joshblf/using-child-components-in-angular-forms-d44e60036664" %}
+
+
+
 ### Other approaches
 
 {% embed url="https://blog.angularindepth.com/angular-nested-reactive-forms-using-cvas-b394ba2e5d0d" %}

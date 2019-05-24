@@ -67,6 +67,7 @@
   * [2017-05-31-observables-rxjs-recipes](javascript/2017-05-31-observables-rxjs-recipes.md)
   * [Vanilla JS](javascript/2018-06-27-plain-vanilla-js.md)
 * [Devops](untitled/README.md)
+  * [DNS](untitled/dns.md)
   * [2018-06-20-devops-ressources](untitled/2018-06-20-devops-ressources.md)
   * [2016-12-26-gcloud-useful-commands](untitled/2016-12-26-gcloud-useful-commands.md)
   * [2016-12-27-authenticate-google-cloud](untitled/2016-12-27-authenticate-google-cloud.md)

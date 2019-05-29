@@ -4,7 +4,7 @@ title: Css snippets
 published: true
 ---
 
-# 2017-05-12-css-snippets
+# Css snippets
 
 ## library of snippets / components / patterns
 

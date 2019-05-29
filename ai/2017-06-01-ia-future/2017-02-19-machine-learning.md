@@ -4,7 +4,7 @@ title: Machine learning
 published: true
 ---
 
-# 2017-02-19-Machine-learning
+# Machine learning
 
 * Présentation au collège de France de Yann Le Cun, spécialiste français du marchine learning qui travaille pour le lab de Facebook sur l'intelligence artificielle [L'apprentissage profond : une révolution en intelligence artificielle](https://www.college-de-france.fr/site/yann-lecun/inaugural-lecture-2016-02-04-18h00.htm)
 

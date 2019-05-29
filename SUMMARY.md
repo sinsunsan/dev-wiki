@@ -2,6 +2,7 @@
 
 * [Blog Wiki](README.md)
 * [Angular](angular/README.md)
+  * [Error handling](angular/error-handling.md)
   * [Debug Angular](angular/2016-12-18-debug-angular2.md)
   * [Angular LifeCycle Hook](angular/angular-lifecycle-hook.md)
   * [Nested forms in Angular](angular/nested-forms-in-angular.md)
@@ -19,6 +20,7 @@
   * [Angular 2-4 UI components libraries](angular/2017-09-12-angular-2-4-ui-components-libraries.md)
   * [Angular 2 libraries](angular/2017-01-31-angular2-libraries.md)
   * [Angular universal 1/1 \(old\)](angular/2017-02-19-universal-angular.md)
+  * [Angular NGRX / Tips and code examples](angular/2018-04-08-ngrx-tips-and-code-example.md)
   * [Angular universal starter 2/2 \(old\)](angular/2017-02-23-how-to-use-the-angular-universal-starter.md)
   * [Angular new Redux \(alternative to ngrx\)](angular/2019-02-01-new-redux/README.md)
     * [2017-07-20-angular-redux](angular/2019-02-01-new-redux/2017-07-20-angular-redux.md)
@@ -81,7 +83,6 @@
 * [NODE.js](node.js/README.md)
   * [Debug node.js](node.js/2017-01-16-debug-nodejs.md)
 * [2017-02-21-Typings](2017-02-21-typings.md)
-* [Angular NGRX / Tips and code examples](2018-04-08-ngrx-tips-and-code-example.md)
 * [2017-11-24-openstreet-maps](2017-11-24-openstreet-maps.md)
 * [2017-06-19-api-authentication](2017-06-19-api-authentication.md)
 * [Developers ressources](developers-ressources/README.md)

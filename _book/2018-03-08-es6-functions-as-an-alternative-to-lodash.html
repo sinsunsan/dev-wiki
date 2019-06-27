@@ -1,0 +1,1574 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>2018-03-08-ES6-functions-as-an-alternative-to-lodash · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2017-05-11-good-developer-blog.html" />
+    
+    
+    <link rel="prev" href="2018-04-04-online-learning-for-developer.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Blog Wiki
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="2017-05-05-mongoose-recipe.html">
+            
+                <a href="2017-05-05-mongoose-recipe.html">
+            
+                    
+                    2017-05-05-mongoose-recipe
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="2017-08-03-different-ways-to-have-a-master-component-angular2.html">
+            
+                <a href="2017-08-03-different-ways-to-have-a-master-component-angular2.html">
+            
+                    
+                    2017-08-03-different-ways-to-have-a-master-component-angular2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="2016-01-07-discover-typescript.html">
+            
+                <a href="2016-01-07-discover-typescript.html">
+            
+                    
+                    2016-01-07-discover-typescript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="2016-12-21-developer-toolbox.html">
+            
+                <a href="2016-12-21-developer-toolbox.html">
+            
+                    
+                    2016-12-21-developer-toolbox
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="2017-08-12-angular-source-code.html">
+            
+                <a href="2017-08-12-angular-source-code.html">
+            
+                    
+                    2017-08-12-angular-source-code
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="2017-05-02-pug-templates-tips.html">
+            
+                <a href="2017-05-02-pug-templates-tips.html">
+            
+                    
+                    2017-05-02-pug-templates-tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="2017-10-24-marketing-ressources-for-startups.html">
+            
+                <a href="2017-10-24-marketing-ressources-for-startups.html">
+            
+                    
+                    2017-10-24-marketing-ressources-for-startups
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="2017-08-07-different-ways-to-communicate-between-component-in-angular2.html">
+            
+                <a href="2017-08-07-different-ways-to-communicate-between-component-in-angular2.html">
+            
+                    
+                    2017-08-07-different-ways-to-communicate-between-component-in-angular2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="2016-12-23-learn-node.js.html">
+            
+                <a href="2016-12-23-learn-node.js.html">
+            
+                    
+                    2016-12-23-Learn-node.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="2017-09-16-wordpress-plugings-to-use.html">
+            
+                <a href="2017-09-16-wordpress-plugings-to-use.html">
+            
+                    
+                    2017-09-16-wordpress-plugings-to-use
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="2017-10-18-debug-cors-hell.html">
+            
+                <a href="2017-10-18-debug-cors-hell.html">
+            
+                    
+                    Request headers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="2017-02-10-javascripts-tutorials-worth-reading.html">
+            
+                <a href="2017-02-10-javascripts-tutorials-worth-reading.html">
+            
+                    
+                    2017-02-10-javascripts-tutorials-worth-reading
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="2017-02-22-webpack.html">
+            
+                <a href="2017-02-22-webpack.html">
+            
+                    
+                    2017-02-22-webpack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="2017-02-21-starting-tensor-flow.html">
+            
+                <a href="2017-02-21-starting-tensor-flow.html">
+            
+                    
+                    2017-02-21-starting-tensor-flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="2018-05-17-starting-with-docker.html">
+            
+                <a href="2018-05-17-starting-with-docker.html">
+            
+                    
+                    2018-05-17-starting-with-docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="2016-12-22-comparison-of-images-as-services.html">
+            
+                <a href="2016-12-22-comparison-of-images-as-services.html">
+            
+                    
+                    2016-12-22-comparison-of-images-as-services
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="2018-01-17-jasmine-behavior-driven-test.html">
+            
+                <a href="2018-01-17-jasmine-behavior-driven-test.html">
+            
+                    
+                    2018-01-17-jasmine-behavior-driven-test
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="2018-03-15-interview-malt-angular-developer.html">
+            
+                <a href="2018-03-15-interview-malt-angular-developer.html">
+            
+                    
+                    2018-03-15-interview-malt-angular-developer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="2016-12-15-angular2-form-cheatsheet.html">
+            
+                <a href="2016-12-15-angular2-form-cheatsheet.html">
+            
+                    
+                    2016-12-15-angular2-form-cheatsheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="2019-02-01-new-redux.html">
+            
+                <a href="2019-02-01-new-redux.html">
+            
+                    
+                    2019-02-01-new-redux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="2016-12-15-angular2-dependencies.html">
+            
+                <a href="2016-12-15-angular2-dependencies.html">
+            
+                    
+                    2016-12-15-angular2-dependencies
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="2017-04-05-admin-sys-ressources.html">
+            
+                <a href="2017-04-05-admin-sys-ressources.html">
+            
+                    
+                    Cloud storage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="2017-05-24-html-and-css-references.html">
+            
+                <a href="2017-05-24-html-and-css-references.html">
+            
+                    
+                    2017-05-24-html-and-css-references
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="2016-12-23-best-libraries-for-node.js.html">
+            
+                <a href="2016-12-23-best-libraries-for-node.js.html">
+            
+                    
+                    2016-12-23-best-libraries-for-node.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="2017-02-03-machine-learning-open-source-libs.html">
+            
+                <a href="2017-02-03-machine-learning-open-source-libs.html">
+            
+                    
+                    2017-02-03-machine-learning-open-source-libs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="2019-02-07-javasript-tests.html">
+            
+                <a href="2019-02-07-javasript-tests.html">
+            
+                    
+                    2019-02-07-javasript-tests
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="2017-02-19-universal-angular.html">
+            
+                <a href="2017-02-19-universal-angular.html">
+            
+                    
+                    2017-02-19-universal-angular
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="2017-02-24-git-tips.html">
+            
+                <a href="2017-02-24-git-tips.html">
+            
+                    
+                    2017-02-24-Git-tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="2018-02-08-docker-ecosystem-by-aymen-el-amri.html">
+            
+                <a href="2018-02-08-docker-ecosystem-by-aymen-el-amri.html">
+            
+                    
+                    2018-02-08-docker-ecosystem-by-aymen-el-amri
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="2017-11-20-sass-css-libraries.html">
+            
+                <a href="2017-11-20-sass-css-libraries.html">
+            
+                    
+                    2017-11-20-SASS-CSS-libraries
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="2017-02-21-angular2-performance-optimization.html">
+            
+                <a href="2017-02-21-angular2-performance-optimization.html">
+            
+                    
+                    2017-02-21-Angular2-performance-optimization
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="2017-01-25-javascripts-libs-bestoff.html">
+            
+                <a href="2017-01-25-javascripts-libs-bestoff.html">
+            
+                    
+                    Sanitize
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="2017-12-13-angular-5-animations.html">
+            
+                <a href="2017-12-13-angular-5-animations.html">
+            
+                    
+                    Tutorials
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="2017-01-05-debug-chrome.html">
+            
+                <a href="2017-01-05-debug-chrome.html">
+            
+                    
+                    The chrome  urls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="2018-06-20-devops-ressources.html">
+            
+                <a href="2018-06-20-devops-ressources.html">
+            
+                    
+                    2018-06-20-devops-ressources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="2016-11-30-airtable-api-examples.html">
+            
+                <a href="2016-11-30-airtable-api-examples.html">
+            
+                    
+                    2016-11-30-airtable-api-examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="2017-09-07-offline.html">
+            
+                <a href="2017-09-07-offline.html">
+            
+                    
+                    2017-09-07-offline
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="2017-07-20-angular-redux.html">
+            
+                <a href="2017-07-20-angular-redux.html">
+            
+                    
+                    2017-07-20-angular-redux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="2017-07-25-global-warming-we-will-die.html">
+            
+                <a href="2017-07-25-global-warming-we-will-die.html">
+            
+                    
+                    2017-07-25-global-warming-we-will-die
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41" data-path="2018-01-24-ci-continuous-integration.html">
+            
+                <a href="2018-01-24-ci-continuous-integration.html">
+            
+                    
+                    2018-01-24-CI-Continuous-integration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.42" data-path="2017-02-17-science-podcast.html">
+            
+                <a href="2017-02-17-science-podcast.html">
+            
+                    
+                    2017-02-17-science-podcast
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.43" data-path="2018-01-16-unit-test-with-angular-karma-jasmine.html">
+            
+                <a href="2018-01-16-unit-test-with-angular-karma-jasmine.html">
+            
+                    
+                    2018-01-16-unit-test-with-angular-karma-jasmine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.44" data-path="2017-01-03-linux-mac-tips.html">
+            
+                <a href="2017-01-03-linux-mac-tips.html">
+            
+                    
+                    2017-01-03-Linux-Mac-tips
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.45" data-path="2018-01-10-develop-with-windows.html">
+            
+                <a href="2018-01-10-develop-with-windows.html">
+            
+                    
+                    2018-01-10-develop-with-windows
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46" data-path="2017-10-16-angular-material.html">
+            
+                <a href="2017-10-16-angular-material.html">
+            
+                    
+                    2017-10-16-angular-material
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.47" data-path="2019-02-01-gsuite-hack.html">
+            
+                <a href="2019-02-01-gsuite-hack.html">
+            
+                    
+                    2019-02-01-gsuite-hack
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.48" data-path="2017-02-23-how-to-use-the-angular-universal-starter.html">
+            
+                <a href="2017-02-23-how-to-use-the-angular-universal-starter.html">
+            
+                    
+                    2017-02-23-how-to-use-the-angular-universal-starter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.49" data-path="2017-01-05-angular-recipes.html">
+            
+                <a href="2017-01-05-angular-recipes.html">
+            
+                    
+                    2017-01-05-angular-recipes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50" data-path="2017-10-20-angular-development-roadmap.html">
+            
+                <a href="2017-10-20-angular-development-roadmap.html">
+            
+                    
+                    2017-10-20-angular-development-roadmap
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.51" data-path="2017-05-31-observables-rxjs-recipes.html">
+            
+                <a href="2017-05-31-observables-rxjs-recipes.html">
+            
+                    
+                    2017-05-31-observables-rxjs-recipes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52" data-path="2017-10-26-flexbox-grid.html">
+            
+                <a href="2017-10-26-flexbox-grid.html">
+            
+                    
+                    2017-10-26-flexbox-grid
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.53" data-path="2017-08-25-true-recipes.html">
+            
+                <a href="2017-08-25-true-recipes.html">
+            
+                    
+                    2017-08-25-true-recipes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.54" data-path="2017-01-26-what-is-a-class-in-javascript.html">
+            
+                <a href="2017-01-26-what-is-a-class-in-javascript.html">
+            
+                    
+                    2017-01-26-What-is-a-class-in-javascript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.55" data-path="2016-12-30-firebase-database.html">
+            
+                <a href="2016-12-30-firebase-database.html">
+            
+                    
+                    2016-12-30-firebase-database
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.56" data-path="2016-12-27-authenticate-google-cloud.html">
+            
+                <a href="2016-12-27-authenticate-google-cloud.html">
+            
+                    
+                    2016-12-27-authenticate-google-cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.57" data-path="2017-10-10-es6-syntax-best-parts.html">
+            
+                <a href="2017-10-10-es6-syntax-best-parts.html">
+            
+                    
+                    2017-10-10-ES6-syntax-best-parts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.58" data-path="2017-03-22-mac-setup.html">
+            
+                <a href="2017-03-22-mac-setup.html">
+            
+                    
+                    2017-03-22-mac-setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.59" data-path="2017-10-23-web-storm-configuration.html">
+            
+                <a href="2017-10-23-web-storm-configuration.html">
+            
+                    
+                    2017-10-23-web-storm-configuration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.60" data-path="2017-06-19-api-authentication.html">
+            
+                <a href="2017-06-19-api-authentication.html">
+            
+                    
+                    2017-06-19-api-authentication
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.61" data-path="2017-04-07-simple-things-for-a-healthier-life.html">
+            
+                <a href="2017-04-07-simple-things-for-a-healthier-life.html">
+            
+                    
+                    Alimentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.62" data-path="2017-08-08-ui-ux-ressources.html">
+            
+                <a href="2017-08-08-ui-ux-ressources.html">
+            
+                    
+                    2017-08-08-UI-UX-ressources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.63" data-path="2017-10-25-documentation-generators-for-angular-5.html">
+            
+                <a href="2017-10-25-documentation-generators-for-angular-5.html">
+            
+                    
+                    Documentation generators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.64" data-path="2017-10-12-english-expression-to-make-your-international-english-more-english.html">
+            
+                <a href="2017-10-12-english-expression-to-make-your-international-english-more-english.html">
+            
+                    
+                    2017-10-12-english-expression-to-make-your-international-english-more-english
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.65" data-path="2017-02-21-typings.html">
+            
+                <a href="2017-02-21-typings.html">
+            
+                    
+                    2017-02-21-Typings
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.66" data-path="2017-10-30-javascript-recipes.html">
+            
+                <a href="2017-10-30-javascript-recipes.html">
+            
+                    
+                    2017-10-30-javascript-recipes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.67" data-path="2017-11-24-openstreet-maps.html">
+            
+                <a href="2017-11-24-openstreet-maps.html">
+            
+                    
+                    2017-11-24-openstreet-maps
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.68" data-path="2017-10-11-lodash-best-of.html">
+            
+                <a href="2017-10-11-lodash-best-of.html">
+            
+                    
+                    2017-10-11-lodash-best-of
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.69" data-path="2017-03-14-best-atom-plugin.html">
+            
+                <a href="2017-03-14-best-atom-plugin.html">
+            
+                    
+                    2017-03-14-best-atom-plugin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.70" data-path="2017-10-19-flickity-vs-slick-jquery-carousel-plugins-comparison.html">
+            
+                <a href="2017-10-19-flickity-vs-slick-jquery-carousel-plugins-comparison.html">
+            
+                    
+                    2017-10-19-flickity-vs-slick-jquery-carousel-plugins-comparison
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.71" data-path="2016-12-18-debug-angular2.html">
+            
+                <a href="2016-12-18-debug-angular2.html">
+            
+                    
+                    2016-12-18-debug-angular2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.72" data-path="2017-10-19-angular-mobile.html">
+            
+                <a href="2017-10-19-angular-mobile.html">
+            
+                    
+                    2017-10-19-angular-mobile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.73" data-path="2019-02-05-regular-expression.html">
+            
+                <a href="2019-02-05-regular-expression.html">
+            
+                    
+                    2019-02-05-regular-expression
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.74" data-path="2017-05-12-css-snippets.html">
+            
+                <a href="2017-05-12-css-snippets.html">
+            
+                    
+                    2017-05-12-css-snippets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.75" data-path="scrum-aec.html">
+            
+                <a href="scrum-aec.html">
+            
+                    
+                    Scrum-aec
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.76" data-path="2017-10-24-my-chrome-extensions.html">
+            
+                <a href="2017-10-24-my-chrome-extensions.html">
+            
+                    
+                    2017-10-24-my-chrome-extensions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.77" data-path="2018-04-08-ngrx-tips-and-code-example.html">
+            
+                <a href="2018-04-08-ngrx-tips-and-code-example.html">
+            
+                    
+                    2018-04-08-ngrx-tips-and-code-example
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.78" data-path="2017-03-29-blue-bird-missing-doc.html">
+            
+                <a href="2017-03-29-blue-bird-missing-doc.html">
+            
+                    
+                    2017-03-29-blue-bird-missing-doc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.79" data-path="2017-01-16-debug-nodejs.html">
+            
+                <a href="2017-01-16-debug-nodejs.html">
+            
+                    
+                    2017-01-16-debug-nodejs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.80" data-path="2017-08-08-user-on-boarding-resources.html">
+            
+                <a href="2017-08-08-user-on-boarding-resources.html">
+            
+                    
+                    2017-08-08-user-on-boarding-resources
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.81" data-path="2018-04-04-online-learning-for-developer.html">
+            
+                <a href="2018-04-04-online-learning-for-developer.html">
+            
+                    
+                    Platform to learn coding online
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.82" data-path="2018-03-08-es6-functions-as-an-alternative-to-lodash.html">
+            
+                <a href="2018-03-08-es6-functions-as-an-alternative-to-lodash.html">
+            
+                    
+                    2018-03-08-ES6-functions-as-an-alternative-to-lodash
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.83" data-path="2017-05-11-good-developer-blog.html">
+            
+                <a href="2017-05-11-good-developer-blog.html">
+            
+                    
+                    2017-05-11-good-developer-blog
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.84" data-path="2016-12-26-gcloud-useful-commands.html">
+            
+                <a href="2016-12-26-gcloud-useful-commands.html">
+            
+                    
+                    2016-12-26-gcloud-useful-commands
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.85" data-path="ai/">
+            
+                <a href="ai/">
+            
+                    
+                    AI
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.85.1" data-path="ai/2017-06-01-ia-future/">
+            
+                <a href="ai/2017-06-01-ia-future/">
+            
+                    
+                    The Future of AI
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.85.1.1" data-path="ai/2017-06-01-ia-future/2017-02-19-machine-learning.html">
+            
+                <a href="ai/2017-06-01-ia-future/2017-02-19-machine-learning.html">
+            
+                    
+                    2017-02-19-Machine-learning
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.86" data-path="javascript/">
+            
+                <a href="javascript/">
+            
+                    
+                    Javascript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.86.1" data-path="javascript/2018-06-27-plain-vanilla-js.html">
+            
+                <a href="javascript/2018-06-27-plain-vanilla-js.html">
+            
+                    
+                    2018-06-27-plain-vanilla-js
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.87" data-path="angular/">
+            
+                <a href="angular/">
+            
+                    
+                    Angular
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.87.1" data-path="angular/2017-10-12-angular-2-4-snippets-library.html">
+            
+                <a href="angular/2017-10-12-angular-2-4-snippets-library.html">
+            
+                    
+                    2017-10-12-angular-2-4-snippets-library
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.87.2" data-path="angular/2016-12-15-jspm-package-manager.html">
+            
+                <a href="angular/2016-12-15-jspm-package-manager.html">
+            
+                    
+                    2016-12-15-JSPM-package-manager
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.87.3" data-path="angular/2016-12-15-recommanded-tutorial-for-angular2.html">
+            
+                <a href="angular/2016-12-15-recommanded-tutorial-for-angular2.html">
+            
+                    
+                    2016-12-15-recommanded-tutorial-for-angular2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.87.4" data-path="angular/2016-12-6-angular2-main-differences-with-angular-1.html">
+            
+                <a href="angular/2016-12-6-angular2-main-differences-with-angular-1.html">
+            
+                    
+                    2016-12-6-angular2-main-differences-with-angular-1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.87.5" data-path="angular/2017-09-12-angular-2-4-ui-components-libraries.html">
+            
+                <a href="angular/2017-09-12-angular-2-4-ui-components-libraries.html">
+            
+                    
+                    2017-09-12-Angular-2-4-UI-components-libraries
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.87.6" data-path="angular/2017-01-31-angular2-libraries.html">
+            
+                <a href="angular/2017-01-31-angular2-libraries.html">
+            
+                    
+                    2017-01-31-angular2-libraries
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.88" data-path="css/">
+            
+                <a href="css/">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.88.1" data-path="css/2017-04-03-news-in-css.html">
+            
+                <a href="css/2017-04-03-news-in-css.html">
+            
+                    
+                    2017-04-03-news-in-css
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.89" data-path="tests/">
+            
+                <a href="tests/">
+            
+                    
+                    Tests
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.89.1" data-path="tests/2018-01-11-end-to-end-test-with-angular-protractor.html">
+            
+                <a href="tests/2018-01-11-end-to-end-test-with-angular-protractor.html">
+            
+                    
+                    E2e tests with protactor
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >2018-03-08-ES6-functions-as-an-alternative-to-lodash</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="2018-03-08-es6-functions-as-an-alternative-to-lodash">2018-03-08-ES6-functions-as-an-alternative-to-lodash</h1>
+<p>Lodash is great, we have an article about <a href="http://dev.sebastienlucas.com/lodash-best-of/" target="_blank">most useful lodash functions</a>. But those functions are pretty low level. They should be at the level of the language itself javascript. With ES5 / ES6, javascript got more powerful, so it is time to stop using some of lodash function to use their native equivalent. The advantage is that we could more easily tweak the function for our needs which is not possible with lodash. And get more knowledge and confidence about ES6. And also get rid of lodash entirely to have less dependencies.</p>
+<p>Lodash alternatives are compiled in this repository, please contribute <a href="https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore" target="_blank">https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore</a></p>
+<p>Another article for alternative to lodash <a href="https://www.reindex.io/blog/you-might-not-need-underscore/" target="_blank">https://www.reindex.io/blog/you-might-not-need-underscore/</a></p>
+<p>And 10 of them are explained in this article <a href="https://www.sitepoint.com/lodash-features-replace-es6/" target="_blank">https://www.sitepoint.com/lodash-features-replace-es6/</a></p>
+<h2 id="arrayreduce-instead-of-keysby">array.reduce instead of _.keysBy</h2>
+<p>Convert array to an object with id as keys</p>
+<h2 id="objectkeys-instead-of-keys">Object.keys instead of _.keys</h2>
+<p>Convert an object with key to an array</p>
+<h2 id="objectassign-or-spread-operator-instead-of-defaults-or-extends-assign">Object.assign or spread operator instead of <em>.defaults or</em> .extends, _.assign...</h2>
+<p>Clone an object</p>
+<h2 id="arrayfilter-instead-of-filter">Array.filter instead of _.filter</h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter" target="_blank">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter</a></p>
+<h2 id="arrayfind-instead-of-find">Array.find instead of _.find</h2>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find" target="_blank">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find</a></p>
+<h2 id="union-with-deduplication">Union with deduplication</h2>
+<p>A blog post illustration union, intersection and difference <a href="http://2ality.com/2015/01/es6-set-operations.html" target="_blank">http://2ality.com/2015/01/es6-set-operations.html</a></p>
+<p>Mind that it works only with array of values, not of objects</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2018-04-04-online-learning-for-developer.html" class="navigation navigation-prev " aria-label="Previous page: Platform to learn coding online">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2017-05-11-good-developer-blog.html" class="navigation navigation-next " aria-label="Next page: 2017-05-11-good-developer-blog">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"layout":"post","title":"2018-03-08-ES6-functions-as-an-alternative-to-lodash","published":true,"level":"1.82","depth":1,"next":{"title":"2017-05-11-good-developer-blog","level":"1.83","depth":1,"path":"2017-05-11-good-developer-blog.md","ref":"2017-05-11-good-developer-blog.md","articles":[]},"previous":{"title":"Platform to learn coding online","level":"1.81","depth":1,"path":"2018-04-04-online-learning-for-developer.md","ref":"2018-04-04-online-learning-for-developer.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"2018-03-08-es6-functions-as-an-alternative-to-lodash.md","mtime":"2019-02-20T11:18:32.515Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-02-20T11:21:00.837Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

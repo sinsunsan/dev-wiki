@@ -4,7 +4,7 @@ title: Angular 2 forms cheatsheets
 published: true
 ---
 
-# 2016-12-15-angular2-form-cheatsheet
+# Angular 2 form cheat sheets
 
 Angular 2 form add many improvements on angular 1 version. There is good in [depth tutorials](http://dev.sebastienlucas.com/good-tutorials-to-learn-angular2/) explaining how to use it.
 

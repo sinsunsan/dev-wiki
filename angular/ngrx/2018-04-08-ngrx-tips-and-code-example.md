@@ -46,9 +46,9 @@ Medium article that explain the changes of ngrx v5 [https://medium.com/ngrx/ngrx
 
 [https://medium.com/@benlesh/hot-vs-cold-observables-f8094ed53339](https://medium.com/@benlesh/hot-vs-cold-observables-f8094ed53339)
 
-## testing ngrx
+## Testing ngrx
 
-Todd motto is a reference but is a paid ressource [https://ultimateangular.teachable.com/courses/ngrx-store-effects/lectures/3923989](https://ultimateangular.teachable.com/courses/ngrx-store-effects/lectures/3923989)
+Todd motto is a reference but is a paid resource [https://ultimateangular.teachable.com/courses/ngrx-store-effects/lectures/3923989](https://ultimateangular.teachable.com/courses/ngrx-store-effects/lectures/3923989)
 
 Other articles about testing ngrx
 
@@ -58,5 +58,9 @@ Other articles about testing ngrx
 
 [https://github.com/ReactiveX/rxjs/blob/master/doc/marble-testing.md](https://github.com/ReactiveX/rxjs/blob/master/doc/marble-testing.md) [https://medium.com/@benlesh/hot-vs-cold-observables-f8094ed53339](https://medium.com/@benlesh/hot-vs-cold-observables-f8094ed53339) [https://github.com/ngrx/platform/blob/master/docs/store/testing.md](https://github.com/ngrx/platform/blob/master/docs/store/testing.md)
 
-[https://medium.com/roowix/unit-testing-of-ngrx-angular-application-part-i-selectors-2edc46d0e0b](https://medium.com/roowix/unit-testing-of-ngrx-angular-application-part-i-selectors-2edc46d0e0b)
+### Other uses of ngrx effects
+
+[https://blog.angularindepth.com/start-using-ngrx-effects-for-this-e0b2bd9da165](https://blog.angularindepth.com/start-using-ngrx-effects-for-this-e0b2bd9da165)
+
+
 

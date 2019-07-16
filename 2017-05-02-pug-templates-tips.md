@@ -4,7 +4,7 @@ title: Pug templates tips
 published: true
 ---
 
-# 2017-05-02-pug-templates-tips
+# PUG templates tips
 
 Pug templating recipes and debug tricks.
 

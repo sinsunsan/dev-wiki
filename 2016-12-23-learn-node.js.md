@@ -3,7 +3,7 @@ published: true
 title: Tutorials to learn node.js
 ---
 
-# 2016-12-23-Learn-node.js
+# Learn node.js
 
 Node.js is quite straightforward and easy to learn once we have understood the basics. Though it is a huge ecosystem and there is a lot to learn to master it. The good thing is that it is in javascript. And the more you learn javascript for the backend, the more you master it in the front.
 

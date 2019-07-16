@@ -4,7 +4,7 @@ title: Wordpress plugins to use
 published: true
 ---
 
-# 2017-09-16-wordpress-plugings-to-use
+# Wordpress plugins
 
 I was not a big fan of wordpress, as I started in 2010 with Drupal another CMS. Drupal is more complicated than worprss and also more integrated : modules work really together. Drupal has a true free and open source model. In wordpress, there is often a premium model with plugins that are free, but that have a premium version that do have a price. Both CMS have the problem of a cluttered UI due to the many possibilities that each plugins / modules can take profit to add its settings.
 

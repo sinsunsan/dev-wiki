@@ -4,7 +4,7 @@ title: Mongoose recipe
 published: true
 ---
 
-# 2017-05-05-mongoose-recipe
+# Mongoose recipe
 
 Mongoose is a nice ORM on top of mongo. I've used it in all the node.js backend I've worked on. Unfortunately its documentation is not its better aspect and lack of examples. Hopefully these recipes could help you achieve what you want
 

@@ -122,5 +122,13 @@ Mind that in js the name is not flatmap ! Look at [flatmap official doc](http://
 
 [https://blog.hackages.io/rxjs-5-5-piping-all-the-things-9d469d1b3f44](https://blog.hackages.io/rxjs-5-5-piping-all-the-things-9d469d1b3f44)
 
-Pipe metod is available from Rxjs 5.5
+Pipe method is available from Rxjs 5.5
+
+### Return an observable when another observable emit a value
+
+```typescript
+this.closeEditing$ 
+.pipe(switchMap(() => this.lines$))
+.subscribe(lines => {
+```
 

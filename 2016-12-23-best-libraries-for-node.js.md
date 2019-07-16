@@ -3,7 +3,7 @@ published: true
 title: Node.js libraries  and  modules you should use
 ---
 
-# 2016-12-23-best-libraries-for-node.js
+# Best libraries for node.js
 
 Here is a growing selection of the most useful libraries for node.
 

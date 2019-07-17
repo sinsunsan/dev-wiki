@@ -22,7 +22,7 @@
   * [NGRX](angular/ngrx/README.md)
     * [Angular NGRX / Tips and code examples](angular/ngrx/2018-04-08-ngrx-tips-and-code-example.md)
     * [Angular new Redux \(alternative to ngrx\)](angular/ngrx/2019-02-01-new-redux.md)
-    * [2017-07-20-angular-redux](angular/ngrx/2017-07-20-angular-redux.md)
+    * [Angular ngrx / Basics](angular/ngrx/2017-07-20-angular-redux.md)
   * [Release and version management](angular/release-and-version-management.md)
 * [PUG templates tips](2017-05-02-pug-templates-tips.md)
 * [2017-10-24-marketing-ressources-for-startups](2017-10-24-marketing-ressources-for-startups.md)

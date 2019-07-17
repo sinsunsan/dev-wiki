@@ -62,5 +62,37 @@ Other articles about testing ngrx
 
 [https://blog.angularindepth.com/start-using-ngrx-effects-for-this-e0b2bd9da165](https://blog.angularindepth.com/start-using-ngrx-effects-for-this-e0b2bd9da165)
 
+### Filter selector in component instead of creating a new selector
+
+```typescript
+  getLines(): Observable<Lines[]> {
+    return this.store
+      .select(getProjecLines)
+      .pipe(
+        map(lines =>
+          lines.filter(
+            line => line.status === true,
+          ),
+        ),
+      );
+  }
+```
+
+### Listening to actions dispatch in component 
+
+To prevent creating a boolean of the state of a completion in reducer. You can subscribe to the action dispatch the same way a reducer do.
+
+```typescript
+showWarning() {
+    return this.appActions.pipe(
+      ofType(actions.ADD_LINES_SUCCESS),
+      map(
+        (action: actions.AddLinesSuccess) =>
+          action.payload,
+      ),
+      takeUntil(this.onDestroy$),
+      tap(({ lines }) => {
+```
+
 
 

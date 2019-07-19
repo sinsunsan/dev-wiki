@@ -27,7 +27,7 @@ Ainsi que ses [cours](https://www.college-de-france.fr/site/yann-lecun/course-20
 
 [https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12](https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12)
 
-* Github project with huge list of ressources on machine learning
+* GitHub project with huge list of resources on machine learning
 
   [https://github.com/vicky002/AlgoWiki/blob/gh-pages/Algorithms/Sources.md](https://github.com/vicky002/AlgoWiki/blob/gh-pages/Algorithms/Sources.md)
 
@@ -57,5 +57,5 @@ The port in tensor flow
 
 ## Datasets
 
-* [SVHN: Street View House Numbers](http://ufldl.stanford.edu/housenumbers)visual database of street signs 600 000 images...
+* [SVHN: Street View House Numbers](http://ufldl.stanford.edu/housenumbers) visual database of street signs 600 000 images...
 

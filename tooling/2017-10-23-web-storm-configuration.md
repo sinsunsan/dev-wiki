@@ -4,7 +4,7 @@ title: My webstorm config
 published: true
 ---
 
-# 2017-10-23-web-storm-configuration
+# Webstorm configuration
 
 More a cheatsheet for my webstorm usage or when I need to install it again.
 

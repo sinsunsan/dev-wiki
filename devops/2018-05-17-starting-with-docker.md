@@ -4,7 +4,7 @@ title: Starting with Docker
 published: true
 ---
 
-# 2018-05-17-starting-with-docker
+# Starting with docker
 
 * How to install ngrx with docker [https://www.digitalocean.com/community/tutorials/how-to-run-nginx-in-a-docker-container-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-run-nginx-in-a-docker-container-on-ubuntu-14-04)
 * A good tutorial recommanded by Docker site [https://github.com/docker/labs/blob/master/beginner/chapters/alpine.md](https://github.com/docker/labs/blob/master/beginner/chapters/alpine.md)

@@ -4,7 +4,7 @@ title: Continous integration setup
 published: true
 ---
 
-# 2018-01-24-CI-Continuous-integration
+# CI Continuous integration
 
 ## One repo or multiple repos
 

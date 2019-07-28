@@ -4,7 +4,7 @@ title: Marketing ressources for startups
 published: true
 ---
 
-# 2017-10-24-marketing-ressources-for-startups
+# Marketing ressources for startup
 
 ## Stickers, goodies, tshirts
 

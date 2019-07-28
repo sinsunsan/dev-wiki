@@ -25,7 +25,7 @@ Mixing french and english post too.
 
 It is too much !
 
-But I am lazy to create one site for all the thematics I want to talk about, so I just post and let's see if we can reorganize that mess one day!
+But I am lazy to create one site for all the thematics I want to talk about, so I just post and let's see if we can re-organize that mess one day!
 
 It is too hard for me to write in english about cooking, as I have a lot of vocabulary to learn in english about food I unfortunately rarely use.
 
@@ -50,10 +50,10 @@ So please read in french or get it translated by google.
 * Assaisonner le comme vous souhaitez, par exemple coriandre en poudre + paprika + sel
 * Mettre dans le plat aubergine entière et poivron entier et 3 gousses d'ails entières, et tomates entières et 3 kiwis entiers \(en milieu de cuisson car demandent moins de temps\) 
 * Une fois la viande cuite, vous pouvez badigeonner le filet d'un mélange de kiwi de tomate écrasée \(en enlevant la peau\) et de l'une des gousses d'ails. 
-* Continuez la cuison avec la viande recouverte ainsi \(à la manière des poissons braisés africains recouverts de préparation à base de tomate\)
+* Continuez la cuisson avec la viande recouverte ainsi \(à la manière des poissons braisés africains recouverts de préparation à base de tomate\)
 * Sortez le filet et découpez le en tranches, répartir la farce pour le recouvrir
-* Continuez eventuellement la cuisson de l'aubergine et poivron 
-* Pour l'aubergine, retirer la pulpe et l'écraser avec une autre gousse d'ail et la pulpe d'un kiwi, saler eventuellement et rajouter de l'huile d'olive 
+* Continuez éventuellement la cuisson de l'aubergine et poivron 
+* Pour l'aubergine, retirer la pulpe et l'écraser avec une autre gousse d'ail et la pulpe d'un kiwi, saler éventuellement et rajouter de l'huile d'olive 
 * Pour le poivron, enlever la peau en appuyant sur le poivron pour l'écraser, elle devrait partir toute seule
 * Servir séparément : caviar d'aubergine, poivron grillé et filet mignon avec sa farce tomate + ail + kiwi
 
@@ -69,17 +69,17 @@ Une petite sauce fraiche et originale pour assaisonner un plat végétarien, de 
 * Un peu de citron
 * 2 tomates
 * une gousse d'ail 
-* Sel et epices
+* Sel et épices
 
 ### Pas à pas
 
 * Faire cuire les navets et oignons 
-* Découper tomates et emincer l'ail
+* Découper tomates et émincer l'ail
 * Mettre le tout dans un recipient pour mixer
 * Mixer
 * Mettre citron et épices comme vous souhaitez
 
-## Choux farcis au poisson,sauce aux navets et au boulgour / quinoa
+## Choux farcis au poisson, sauce aux navets et au boulgour / quinoa
 
 ### Ingredients
 
@@ -92,7 +92,7 @@ Une petite sauce fraiche et originale pour assaisonner un plat végétarien, de 
 * Faite blanchir les feuilles de choux 10 minutes dans de l'eau bouillante 
 * Mettre de coté les plus grosses feuilles \(vertes plus foncés\)
 * Effeuiller les autres pour préparer
-* Faire cuire dans de l'eau ou du bosuillon le boulgour quinoa
+* Faire cuire dans de l'eau ou du bouillon le boulgour quinoa
 * Faire cuire le poisson de manière à en enlever facilement la peau 
 
   mais pas trop car la cuisson va continuer au four 
@@ -122,20 +122,20 @@ Une petite sauce fraiche et originale pour assaisonner un plat végétarien, de 
 * Ajouter le vinaigre japonais, il va rendre le choux plus doux et sucré
 * Mettre un couvercle, baisser le feu et faites revenir 15 minutes environ
 * Vous pouvez rajouter des raisins secs en cours de cuisson
-* Une fois prêt vous pouvez servir comme accompagnement d'un plat végétarien par exemple avec du couscous et de la purée d'avocat, le choux et la tomate étant légerement sucrés cela donnera une saveur complementaire
+* Une fois prêt vous pouvez servir comme accompagnement d'un plat végétarien par exemple avec du couscous et de la purée d'avocat, le choux et la tomate étant légèrement sucrés cela donnera une saveur complémentaire
 
-## Champignons emincés à l'huile de sesame et au cumin
+## Champignons émincés à l'huile de sesame et au cumin
 
 ### Servir avec
 
-Des pommes de terres, du riz... comme acompagnement
+Des pommes de terres, du riz... comme accompagnement
 
 ### Ingredients
 
-* Champinon de Paris Blond
+* Champignon de Paris Blond
 * Huile de sesame 
 * Graine de cumin
-* Vinaingre de riz
+* Vinaigre de riz
 * Piment
 * Curcuma 
 * Sel 
@@ -145,9 +145,9 @@ Des pommes de terres, du riz... comme acompagnement
 ### Pas à pas
 
 * Faire revenir l'ail dans l'huile d'olive les graines de cumins
-* Rajouter les champignons emincés finement 
+* Rajouter les champignons émincés finement 
 * Soupoudrer de curcuma, piment, et sel
-* Au bout de 5 minutes rajouter un peu d'huile  de sesame \(pas trop le gout et très fort\) et du vinaigre de riz japonais / L'huile donne un gout un peu amer mais fort en gout, le vinaigre japonais amolli et sucre legerement 
+* Au bout de 5 minutes rajouter un peu d'huile  de sesame \(pas trop le gout et très fort\) et du vinaigre de riz japonais / L'huile donne un gout un peu amer mais fort en gout, le vinaigre japonais amolli et sucre légèrement 
 * Continuer à cuire 5 minutes
 
 ## Orecchiette aux moules et à l'oseille
@@ -156,8 +156,8 @@ Des pommes de terres, du riz... comme acompagnement
 
 * Orecchiette n0 91 de cecco
 * Tomate apéritive Pomodorini en conserve \(Marque de Cecco\)
-* Oseille hachée surgellé
-* Moule surgellée
+* Oseille hachée surgelé
+* Moule surgelée
 * Ail
 * Echalotte 
 * Mirin

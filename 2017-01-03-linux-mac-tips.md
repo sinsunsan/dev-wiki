@@ -3,7 +3,7 @@ published: true
 title: Linux & mac admin tips & tricks
 ---
 
-# 2017-01-03-Linux-Mac-tips
+# Linux Mac tips
 
 List of recipes to debug or just do what you need on MAC or LINUX machine.
 

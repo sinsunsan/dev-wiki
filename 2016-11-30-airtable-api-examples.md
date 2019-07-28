@@ -4,7 +4,7 @@ title: How to use Airtable API
 published: true
 ---
 
-# 2016-11-30-airtable-api-examples
+# Airtable API examples
 
 Airtable is an interesting tool for web developer as it is as the crossroad of database ui like phpmyadmin, robotmongo, a spreadsheet like google spreadsheet and an api.
 

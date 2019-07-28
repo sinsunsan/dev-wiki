@@ -4,7 +4,7 @@ title: Science podcasts
 published: true
 ---
 
-# 2017-02-17-science-podcast
+# Science podcast
 
 ## Scientific sites and ressources
 

@@ -80,7 +80,7 @@
   * [Debug node.js](node.js/2017-01-16-debug-nodejs.md)
 * [2017-11-24-openstreet-maps](2017-11-24-openstreet-maps.md)
 * [Developers ressources](developers-ressources/README.md)
-  * [Platforms to learn coding online](developers-ressources/2018-04-04-online-learning-for-developer.md)
+  * [Online platform coding](developers-ressources/2018-04-04-online-learning-for-developer.md)
   * [Good developers blogs](developers-ressources/2017-05-11-good-developer-blog.md)
 * [Tooling](tooling/README.md)
   * [Webstorm configuration](tooling/2017-10-23-web-storm-configuration.md)

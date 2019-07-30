@@ -4,23 +4,39 @@ title: Online learning for developers
 published: true
 ---
 
-# Platforms to learn coding online
+# Online platform coding
 
-## DATACAMP Machine learning Python
+### DATACAMP Machine learning Python
 
-[https://www.datacamp.com/tracks/data-scientist-with-python](https://www.datacamp.com/tracks/data-scientist-with-python)
+{% embed url="https://www.datacamp.com/tracks/data-scientist-with-python" %}
 
-## UDEMY Generalist platform \(busines, code, lifestyle\)
 
-[https://www.udemy.com/courses/business/strategy/](https://www.udemy.com/courses/business/strategy/)
 
-## COURSERA
+### UDEMY Generalist platform \(business, code, lifestyle\)
+
+{% embed url="https://www.udemy.com/courses/business/strategy" %}
+
+
+
+### COURSERA
 
 Courses of US universities
 
-[https://www.coursera.org/](https://www.coursera.org/)
+{% embed url="https://www.coursera.org/" %}
 
-## PLURALSIGHTS
+### PLURALSIGHTS
 
-[https://www.pluralsight.com](https://www.pluralsight.com)
+{% embed url="https://www.pluralsight.com" %}
+
+### HackerRank
+
+{% embed url="https://www.hackerrank.com" %}
+
+### Coding Games
+
+{% embed url="https://www.codingame.com/" %}
+
+
+
+
 

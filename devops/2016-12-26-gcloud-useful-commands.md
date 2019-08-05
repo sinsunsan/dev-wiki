@@ -3,7 +3,7 @@ published: true
 title: Useful commands to start with gcloud utility
 ---
 
-# 2016-12-26-gcloud-useful-commands
+# Gcloud useful commands
 
 gcloud is a command line utility very useful to manage you projects on Google cloud.
 

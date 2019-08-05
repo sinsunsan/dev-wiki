@@ -3,7 +3,7 @@ published: true
 title: How to use Firebase in a node / angular app
 ---
 
-# 2016-12-30-firebase-database
+# Firebase database
 
 Firebase is service developed by Google and integrated in google cloud, that allow to have JSON data store type database online.
 

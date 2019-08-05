@@ -4,7 +4,7 @@ title: Flexbox grid system
 published: true
 ---
 
-# 2017-10-26-flexbox-grid
+# Flexbox grid
 
 ![masonry with flexbox](https://github.com/sinsunsan/dev-wiki/tree/e91a89337cb472fad5198a7110a0eaa8d63d66f5/images/flex-masonry.png)
 

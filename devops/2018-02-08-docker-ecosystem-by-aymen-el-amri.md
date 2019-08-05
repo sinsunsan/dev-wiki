@@ -4,7 +4,7 @@ title: 'L''écosystème Docker par Aymen El Amri [Meetups]'
 published: true
 ---
 
-# Docker ecosystem by aymen el amri
+# Docker by aymen el amri
 
 ![l&apos;&#xE9;cosyst&#xE8;me Docker / pr&#xE9;sentation de Aymen Amri](https://github.com/sinsunsan/dev-wiki/tree/e91a89337cb472fad5198a7110a0eaa8d63d66f5/images/docker-aymen-amri.jpg)
 

@@ -4,7 +4,7 @@ title: Cooking recipes log
 published: true
 ---
 
-# 2017-08-25-true-recipes
+# True recipes
 
 Recipes as a developers mean a common way to accomplish a task. So I named several posts with recipes in the title.
 

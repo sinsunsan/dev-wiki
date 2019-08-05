@@ -3,7 +3,7 @@ published: true
 title: My Google Cloud Authentication Quest
 ---
 
-# 2016-12-27-authenticate-google-cloud
+# Authenticate Gcloud
 
 Authentication is the more frustrating part of google cloud at first. It seems really complicated with various system, a terminology that at first we do not understand.
 

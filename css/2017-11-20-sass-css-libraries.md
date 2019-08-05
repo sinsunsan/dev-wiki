@@ -4,7 +4,7 @@ title: SASS & CSS libraries and frameworks
 published: true
 ---
 
-# 2017-11-20-SASS-CSS-libraries
+# SASS-CSS libraries
 
 ## Frameworks
 

@@ -4,7 +4,7 @@ title: Angular 5 animations
 published: true
 ---
 
-# Tutorials
+# Angular Tutorials
 
 * [Angular 5 animations official guide](https://angular.io/guide/animations)
 * [http://jasonwatmore.com/post/2017/04/19/angular-2-4-router-animation-tutorial-example](http://jasonwatmore.com/post/2017/04/19/angular-2-4-router-animation-tutorial-example)

@@ -4,7 +4,7 @@ title: Observable RXJS practical examples for Angular 2-4
 published: true
 ---
 
-# 2017-05-31-observables-rxjs-recipes
+# Observables rxjs recipes
 
 ## Where to find information to lean RXJS for Angular
 

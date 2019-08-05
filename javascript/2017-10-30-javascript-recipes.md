@@ -4,11 +4,11 @@ title: Javascript recipes
 published: true
 ---
 
-# 2017-10-30-javascript-recipes
+# Javascript recipes
 
-## Get the computed style of an html element
+### Get the computed style of a html element
 
-getComputedStyle is a function attach to window object. It allow to get the exact same information than the chrome computed properties So the list of all properties of a given element
+getComputedStyle is a function attach to window object. It allows to get the exact same information than the chrome computed properties So the list of all properties of a given element
 
 `getComputedStyle($('body'))`
 
@@ -31,7 +31,7 @@ parseInt(getComputedStyle($('body')).height, 10)
 
 The result is 25078
 
-## What is copying a  object ?
+### What is copying an  object ?
 
 [https://medium.com/@tkssharma/objects-in-javascript-object-assign-deep-copy-64106c9aefab](https://medium.com/@tkssharma/objects-in-javascript-object-assign-deep-copy-64106c9aefab)
 
@@ -39,9 +39,17 @@ The original
 
 [https://scotch.io/bar-talk/copying-objects-in-javascript](https://scotch.io/bar-talk/copying-objects-in-javascript)
 
-## Immutability
+### Immutability
 
 * [https://hackernoon.com/introducing-immer-immutability-the-easy-way-9d73d8f71cb3](https://hackernoon.com/introducing-immer-immutability-the-easy-way-9d73d8f71cb3)
 * [https://github.com/facebook/immutable-js](https://github.com/facebook/immutable-js)
 * [https://github.com/mweststrate/immer](https://github.com/mweststrate/immer)
+
+### False switch case 
+
+{% embed url="https://gist.github.com/sinsunsan/bc176b1d845d5f7dc14d63e946b1278d" %}
+
+
+
+
 

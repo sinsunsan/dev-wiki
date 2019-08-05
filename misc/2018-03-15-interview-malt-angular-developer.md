@@ -4,7 +4,7 @@ title: Interview Sébastien Lucas par Malt / Développeur Angular
 published: true
 ---
 
-# Interview MALT Sébastien Lucas Developer
+# Interview Sébastien Lucas
 
 ## Pour commencer, peux-tu te présenter en quelques mots ? Quel métier exerces-tu en freelance ?
 

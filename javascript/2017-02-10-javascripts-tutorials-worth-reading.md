@@ -4,7 +4,7 @@ title: Javascript tutorials worth reading
 published: true
 ---
 
-# 2017-02-10-javascripts-tutorials-worth-reading
+# Javascript tutorials
 
 ## Promises
 

@@ -4,13 +4,13 @@ title: Marketing ressources for startups
 published: true
 ---
 
-# Marketing ressources for startup
+# Marketing resources for startup
 
-## Stickers, goodies, tshirts
+## Stickers, goodies, T-shirts
 
-* Simple and effective tshirt 25 euros 2 faces [https://www.spreadshirt.fr](https://www.spreadshirt.fr)
-* Teeshirt with a crowdfunding like feature [https://teespring.com](https://teespring.com)
-* Stickers, tshirts....[https://camaloon.fr](https://camaloon.fr)
+* Simple and effective T-shirt 25 euros 2 faces [https://www.spreadshirt.fr](https://www.spreadshirt.fr)
+* Tee shirt with a crowdfunding like feature [https://teespring.com](https://teespring.com)
+* Stickers, T-shirts....[https://camaloon.fr](https://camaloon.fr)
 * Stickers [https://www.stickermule.com/](https://www.stickermule.com/)
 
 ## Design inspirations

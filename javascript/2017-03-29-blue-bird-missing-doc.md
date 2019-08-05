@@ -4,7 +4,7 @@ title: Blue bird missing doc / the essential function decrypted
 published: true
 ---
 
-# 2017-03-29-blue-bird-missing-doc
+# Bluebird missing docs
 
 Blue bird is a great library of promise for front end \(angular\) and backend \(node\). But its documentation is definitely not good. Let's list and explain shorty the difference between each useful functions this library provide.
 
@@ -16,9 +16,9 @@ Blue bird is a great library of promise for front end \(angular\) and backend \(
 
 **Sequential** processing means each promises is processed one after the other. Could be useful if you want to have a control on the flow of processing. Or if you need the result of previous promise to process the next.
 
-**Parallel** processing means the promises are processed at the same time. You cannot garanty that the order will be preserved.
+**Parallel** processing means the promises are processed at the same time. You cannot guaranty that the order will be preserved.
 
-## 2 anti pattern not to fall in
+## 2 anti patterns not to fall in
 
 * Creating an explicit promise that wrap an already promise [http://bluebirdjs.com/docs/anti-patterns.html\#the-explicit-construction-anti-pattern](http://bluebirdjs.com/docs/anti-patterns.html#the-explicit-construction-anti-pattern)
 * [http://bluebirdjs.com/docs/anti-patterns.html\#the-explicit-construction-anti-pattern](http://bluebirdjs.com/docs/anti-patterns.html#the-explicit-construction-anti-pattern)
@@ -66,7 +66,7 @@ join(getPictures(), getComments(), getTweets(),
 
 * [**Promise.some**](http://bluebirdjs.com/docs/api/promise.some.html)
 
-The same that lodash `_.some` but with promises and with the count parameter that allow to tell the minimal promises that need to be fullfilled before
+The same that lodash `_.some` but with promises and with the count parameter that allow to tell the minimal promises that need to be fulfilled before
 
 Example of the doc log only the 2 fastest server to respond.
 
@@ -83,7 +83,7 @@ Promise.some([
 
 * [**Promise.props**](http://bluebirdjs.com/docs/api/promise.props.html)
 
-Use the properties of an object to define promise to be perfomed. The advantage is that the result is accessible with the same properties name that the input object. Giving the benefit of the spread\(\) operator \(instead of the then\(\)\)
+Use the properties of an object to define promise to be performed. The advantage is that the result is accessible with the same properties name that the input object. Giving the benefit of the spread\(\) operator \(instead of the then\(\)\)
 
 ```javascript
 Promise.props({
@@ -114,7 +114,7 @@ Promise.all([
 ```
 
 * [**cancel\(\)**](http://bluebirdjs.com/docs/api/cancel.html) Cancel a promise if it has not been received already
-* [**spread\(\)**](http://bluebirdjs.com/docs/api/spread.html) The result of promise.all is an array of promises return, but what if you want to define them as parameters ?
+* [**spread\(\)**](http://bluebirdjs.com/docs/api/spread.html) The result of promise.all is an array of promises returns, but what if you want to define them as parameters ?
 
 ```javascript
  let arrayOfPromises = [
@@ -136,7 +136,7 @@ Promise.all([
 
 * [Global rejection error hook](http://bluebirdjs.com/docs/api/error-management-configuration.html#global-rejection-events)
 
-Allow to do something globally when error occured
+Allow doing something globally when error occurred
 
 ```javascript
   // NOTE: event name is camelCase as per node convention
@@ -152,7 +152,7 @@ Allow to do something globally when error occured
 
 * **\[isFullfilled\]**\([http://bluebirdjs.com/docs/api/isfulfilled.html](http://bluebirdjs.com/docs/api/isfulfilled.html)\)
 
-test if the promise is fullfilled
+test if the promise is fulfilled
 
 ```javascript
 let mypromise = Promise.all()

@@ -4,7 +4,7 @@ title: ES6 syntax best parts
 published: true
 ---
 
-# 2017-10-10-ES6-syntax-best-parts
+# ES6 syntax the best parts
 
 ## Where to find info about ES6 new syntax and features
 

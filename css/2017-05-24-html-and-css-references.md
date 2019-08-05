@@ -4,7 +4,7 @@ title: Css and HTML references
 published: true
 ---
 
-# 2017-05-24-html-and-css-references
+# Html and css references
 
 ## References and guides
 

@@ -1,15 +1,16 @@
 ---
 published: true
 title: Comparison of images as a service solutions
+description: Comparison of SaaS images services
 ---
 
-# Comparison of image as a service
+# SaaS images services
 
 Images as a service is a convenient to handle images upload in a web site.
 
-## Why an images as service \(IaaS\)
+## Why an image as service \(IaaS\)
 
-Here is some features, those types of services are doing.
+Here are some features, those types of services are doing.
 
 * Image uploader \(Optional\)
 * Backup
@@ -35,7 +36,7 @@ Feel free to suggest me other I have not listed here. I included only the first 
 Here are also some free alternatives :
 
 * A service that allow you to use the image where they are only for transformation. So you do not need an api or a user account [https://rsz.io](https://rsz.io)
-* Also image manipulation and resizing is not that hard so you can also use some nice libraries
+* Also, image manipulation and resizing is not that hard so you can also use some nice libraries
 
   like JIMP in node.js [https://github.com/oliver-moran/jimp](https://github.com/oliver-moran/jimp)
 

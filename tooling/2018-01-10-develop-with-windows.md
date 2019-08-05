@@ -4,7 +4,7 @@ title: Angular 5 animations
 published: true
 ---
 
-# How to develop with Windows OS
+# Develop in Windows
 
 Window is not the best OS to develop. But sometimes you do not have choice. So here is some ressources, on how to develop with a windows OS.
 

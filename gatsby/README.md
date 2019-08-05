@@ -1,2 +1,2 @@
-# Gatsby
+# Gatsby / React
 

@@ -4,7 +4,7 @@ layout: post
 title: The tutorials I've read to learn Angular 2-4
 ---
 
-# Tutorial for Angular 2+
+# Angular tutorial selection
 
 Here is a curated list of some good tutorials we used to learn the version 2 of angular.
 

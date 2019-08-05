@@ -4,7 +4,11 @@ title: X ways to communicate between component in angular 2
 published: false
 ---
 
-# Angular 2 communication between components
+# Communication between components
+
+{% embed url="https://angularfirebase.com/lessons/sharing-data-between-angular-components-four-methods/" %}
+
+
 
 ## @input @output
 

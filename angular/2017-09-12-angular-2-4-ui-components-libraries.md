@@ -4,7 +4,7 @@ title: angular 2-4 UI components libraries
 published: true
 ---
 
-# Angular 2-4 UI components libraries
+# UI components libraries
 
 ## List of components available per library
 

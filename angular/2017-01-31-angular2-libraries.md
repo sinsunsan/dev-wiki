@@ -4,7 +4,7 @@ title: angular 2 selected libraries
 published: true
 ---
 
-# Angular 2 libraries
+# Angular libraries
 
 Angular 2 libraries are less numerous than angular 1 equivalents, but they are growing fast. The good point is that you do not loose to much time finding the right one, as it used to be the case with angular 1. And as angular 2 is much clearer, they are generally easier to understand with less code, no dependency to jQuery...
 

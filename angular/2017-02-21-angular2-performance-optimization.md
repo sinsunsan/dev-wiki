@@ -4,7 +4,7 @@ title: Angular 2 performance optimization
 published: true
 ---
 
-# Angular Perfomance optimization
+# Perfomance optimization
 
 ## Enable Prod mode
 

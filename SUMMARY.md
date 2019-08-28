@@ -2,6 +2,7 @@
 
 * [Blog Wiki](README.md)
 * [Gatsby / React](gatsby/README.md)
+  * [React concepts](gatsby/react-concepts.md)
   * [Gatsby internationalisation](gatsby/gatsby-internationalisation.md)
 * [Angular](angular/README.md)
   * [Error handling](angular/error-handling.md)

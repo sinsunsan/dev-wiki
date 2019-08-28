@@ -4,7 +4,7 @@ title: Start angular 2 now! Main differences from v1
 published: true
 ---
 
-# Angular2 main differences with angular 1
+# Angular 2/Angular 1 differences
 
 Angular 2 architecture have changed, but javascript too. The rise of ES6 is parallel to the release of angular 2. Angular choose to have dependencies on typescript though it is possible to use angular 2 without typescript
 

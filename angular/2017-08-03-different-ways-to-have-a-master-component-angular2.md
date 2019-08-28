@@ -4,9 +4,9 @@ title: X ways to have a master component in angular 2
 published: false
 ---
 
-# Different ways to have master component
+# Master component in Angular
 
-Often you want to make declination of the nearly the same component, having separated component for clarity, ability to edit it later... but not having to duplicate the code.
+Often you want to make declination of nearly the same component, having separated component for clarity, ability to edit it later... but not having to duplicate the code.
 
 ## Master component using transclusion
 

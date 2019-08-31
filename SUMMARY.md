@@ -35,6 +35,7 @@
   * [True recipes](misc/2017-08-25-true-recipes.md)
   * [Science podcast](misc/2017-02-17-science-podcast.md)
 * [NODE.js](node.js/README.md)
+  * [Node.js security](node.js/node.js-security.md)
   * [Learn node.js](node.js/2016-12-23-learn-node.js.md)
   * [Best libraries for node.js](node.js/2016-12-23-best-libraries-for-node.js.md)
   * [Mongoose recipe](node.js/2017-05-05-mongoose-recipe.md)

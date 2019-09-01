@@ -58,6 +58,7 @@
   * [Observables rxjs recipes](javascript/2017-05-31-observables-rxjs-recipes.md)
   * [Vanilla JS](javascript/2018-06-27-plain-vanilla-js.md)
 * [Devops](devops/README.md)
+  * [nginx](devops/nginx.md)
   * [Starting with docker](devops/2018-05-17-starting-with-docker.md)
   * [CI Continuous integration](devops/2018-01-24-ci-continuous-integration.md)
   * [DNS](devops/dns.md)

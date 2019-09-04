@@ -34,3 +34,7 @@ Prerendering on the server side.
 
 Look [ at our introduction](http://dev.sebastienlucas.com/universal-angular/) and [step by step starter](http://dev.sebastienlucas.com/how-to-use-the-angular-universal-starter/)
 
+## Fixing and detecting memory leaks
+
+[https://itnext.io/angular-rxjs-detecting-memory-leaks-bdd312a070a0](https://itnext.io/angular-rxjs-detecting-memory-leaks-bdd312a070a0)
+

@@ -94,6 +94,7 @@
   * [Jasmine test](tests/2018-01-17-jasmine-behavior-driven-test.md)
   * [E2e tests with protactor](tests/2018-01-11-end-to-end-test-with-angular-protractor.md)
 * [Git](git/README.md)
+  * [Git commits](git/git-commits.md)
   * [Git tips](git/2017-02-24-git-tips.md)
   * [Set up a mono repo](git/set-up-a-mono-repo.md)
 * [Design Pattern](design-pattern.md)

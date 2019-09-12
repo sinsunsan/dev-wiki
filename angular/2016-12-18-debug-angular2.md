@@ -40,15 +40,13 @@ Augury is a more complete debug utility for chrome. It can display the state of 
 copy(JSON.stringify(changes.widgetData.currentValue, null, 2))
 ```
 
-It copy the result of JSON.stringify with the option to set correct identation 2.
+It copies the result of JSON.stringify with the option to set correct indentation 2.
 
 ## Access file by filename to add break point
 
-In chrome debugger go to sources tab and type CMD + P \(same short cut that in sublime text\) it open a list of files
-
-![chrome file list debugger](https://github.com/sinsunsan/dev-wiki/tree/e91a89337cb472fad5198a7110a0eaa8d63d66f5/images/chrome-debugger-file-list.png)
+In chrome debugger go to sources tab and type CMD + P \(same shortcut that in sublime text\) it open a list of files
 
 ## Debug on mobile
 
-Use the [chrome debugger remote device](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3) feature with an adroid
+Use the [chrome debugger remote device](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/?utm_source=dcc&utm_medium=redirect&utm_campaign=2016q3) feature with an android
 

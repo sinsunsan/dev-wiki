@@ -14,8 +14,9 @@ published: true
 
 ## Fixing and detecting memory leaks
 
-* [https://itnext.io/angular-rxjs-detecting-memory-leaks-bdd312a070a0](https://itnext.io/angular-rxjs-detecting-memory-leaks-bdd312a070a0)
+* How to detect memory leaks \(chrome debugger\) [https://itnext.io/angular-rxjs-detecting-memory-leaks-bdd312a070a0](https://itnext.io/angular-rxjs-detecting-memory-leaks-bdd312a070a0)
 * Explanation on how to use chrome dev tools for that and memory related concepts [https://developers.google.com/web/tools/chrome-devtools/memory-problems/](https://developers.google.com/web/tools/chrome-devtools/memory-problems/)
+* Four types of memory leaks in JS [https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/](https://auth0.com/blog/four-types-of-leaks-in-your-javascript-code-and-how-to-get-rid-of-them/)
 
 ## Enable Prod mode
 

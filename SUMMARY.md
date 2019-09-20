@@ -49,6 +49,7 @@
   * [Datasets](ai/datasets.md)
   * [The Future of AI](ai/2017-06-01-ia-future.md)
 * [Javascript](javascript/README.md)
+  * [Await API](javascript/await-api.md)
   * [Debug memory leaks](javascript/debug-memory-leaks.md)
   * [Offline and PWA](javascript/2017-09-07-offline.md)
   * [Javascript tutorials](javascript/2017-02-10-javascripts-tutorials-worth-reading.md)

@@ -91,6 +91,7 @@
   * [New things in scss](css/2017-04-03-news-in-css.md)
   * [SASS best practices](css/sass-best-practices.md)
 * [Tests](tests/README.md)
+  * [Puppeteer](tests/puppeteer.md)
   * [Type of tests + Ressources](tests/type-of-tests-+-ressources.md)
   * [Jasmine test](tests/2018-01-17-jasmine-behavior-driven-test.md)
   * [E2e tests with protactor](tests/2018-01-11-end-to-end-test-with-angular-protractor.md)

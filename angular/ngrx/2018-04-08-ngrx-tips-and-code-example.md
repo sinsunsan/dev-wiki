@@ -60,6 +60,8 @@ Other articles about testing ngrx
 
 ### Other uses of ngrx effects
 
+* Article that list different use case for effects  [https://indepth.dev/start-using-ngrx-effects-for-this/](https://indepth.dev/start-using-ngrx-effects-for-this/)
+
 [https://blog.angularindepth.com/start-using-ngrx-effects-for-this-e0b2bd9da165](https://blog.angularindepth.com/start-using-ngrx-effects-for-this-e0b2bd9da165)
 
 ### Filter selector in component instead of creating a new selector

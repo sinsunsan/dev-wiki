@@ -1,24 +1,11 @@
----
-layout: post
-title: Typescript / The future of javascript now!
-published: true
----
+# d.ts files
 
-# Typescript
 
-Typescript is a subset of JavaScript. That mean that all javascript ES5, 6 ... is valid typescript, but typescript add many useful features. The more important is the hard typings but not only.
-
-Like ES6 and all new javascript brand, it need to be compiled to current javascript so that actual browsers can interpret it.
-
-## Resources
-
-* Typescript official documentation [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
-* An open source book on typescript [https://basarat.gitbooks.io/typescript](https://basarat.gitbooks.io/typescript)
 
 ## Questions about d.ts file
 
-* **what is a d.ts files** : A d.ts file is a definition file created to make available typings for libraries that do not use typescript.
-* **how typescript know where the types definition the d.ts file is ?** Types definitions are informed in the package.json of the library. In our sweetalert2 example `"types": "sweetalert2.d.ts",` the following key is enough to tell typescript that the type definition file is at the root of the library in a file named **sweetalert2.d.ts**.
+* **what is a d.ts files** : A d.ts file is a definition file created to make available typing for libraries that do not use typescript.
+* **How typescript know where the types definition the d.ts file is ?** Types definitions are informed in the package.json of the library. In our sweetalert2 example `"types": "sweetalert2.d.ts",` the following key is enough to tell typescript that the type definition file is at the root of the library in a file named **sweetalert2.d.ts**.
 
 ## Example of a d.ts file
 

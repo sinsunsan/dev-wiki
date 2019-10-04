@@ -9,7 +9,14 @@
 
 ### How to 
 
- [https://christianlydemann.com/the-complete-guide-to-ngrx-testing/](https://christianlydemann.com/the-complete-guide-to-ngrx-testing/)
+* [https://christianlydemann.com/the-complete-guide-to-ngrx-testing/](https://christianlydemann.com/the-complete-guide-to-ngrx-testing/)
+
+
+
+### Marbles test 
+
+* [https://medium.com/@bencabanes/marble-testing-observable-introduction-1f5ad39231c](https://medium.com/@bencabanes/marble-testing-observable-introduction-1f5ad39231c)
+* [https://github.com/jisaacks/RxJS/blob/master/doc/writing-marble-tests.md](https://github.com/jisaacks/RxJS/blob/master/doc/writing-marble-tests.md)
 
 ### Tricks 
 

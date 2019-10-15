@@ -6,6 +6,8 @@
 
 {% embed url="https://alligator.io/angular/ngx-translate/" %}
 
+{% embed url="https://github.com/CodeAndWeb/ngx-translate-demo" %}
+
 
 
 ### angular i18n

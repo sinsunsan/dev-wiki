@@ -96,6 +96,7 @@
   * [New things in scss](css/2017-04-03-news-in-css.md)
   * [SASS best practices](css/sass-best-practices.md)
 * [Tests](tests/README.md)
+  * [Mobile test](tests/mobile-test.md)
   * [BDD + Cucumber](tests/bdd-+-cucumber.md)
   * [Puppeteer](tests/puppeteer.md)
   * [Type of tests + Ressources](tests/type-of-tests-+-ressources.md)

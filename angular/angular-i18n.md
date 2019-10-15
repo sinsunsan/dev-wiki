@@ -8,6 +8,8 @@
 
 {% embed url="https://github.com/CodeAndWeb/ngx-translate-demo" %}
 
+{% embed url="https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-angular8-app-with-ngx-translate" %}
+
 
 
 ### angular i18n

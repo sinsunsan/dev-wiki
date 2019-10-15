@@ -3,6 +3,7 @@
 * [Blog Wiki](README.md)
 * [Angular](angular/README.md)
   * [Error handling](angular/error-handling.md)
+  * [Angular i18n](angular/angular-i18n.md)
   * [Debug Angular](angular/2016-12-18-debug-angular2.md)
   * [Angular LifeCycle Hook](angular/angular-lifecycle-hook.md)
   * [Nested forms in Angular](angular/nested-forms-in-angular.md)

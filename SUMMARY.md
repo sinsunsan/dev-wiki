@@ -88,6 +88,7 @@
   * [Develop toolbox](tooling/2016-12-21-developer-toolbox.md)
 * [UI](ui.md)
 * [HTML / CSS](css/README.md)
+  * [Favicon](css/favicon.md)
   * [Flexbox grid](css/2017-10-26-flexbox-grid.md)
   * [PUG templates tips](css/2017-05-02-pug-templates-tips.md)
   * [Html and css references](css/2017-05-24-html-and-css-references.md)

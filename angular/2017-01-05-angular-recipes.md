@@ -444,3 +444,17 @@ Example of interceptor file
 
 [https://ultimatecourses.com/blog/angular-2-form-controls-patch-value-set-value](https://ultimatecourses.com/blog/angular-2-form-controls-patch-value-set-value)
 
+### Return a mock if server is off 
+
+
+
+```text
+getTasks(): Observable<Tasks[]> {
+    return this.httpClient
+      .get<Tasks[]>(URL.forTasks())
+      .pipe(catchError(() => of(TASKS_MOCK)));
+  }
+```
+
+
+

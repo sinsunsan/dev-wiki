@@ -69,6 +69,7 @@
 * [Devops](devops/README.md)
   * [nginx](devops/nginx.md)
   * [zsh](devops/zsh.md)
+  * [Dockerise simple node app](devops/dockerise-simple-node-app.md)
   * [Starting with docker](devops/2018-05-17-starting-with-docker.md)
   * [CI Continuous integration](devops/2018-01-24-ci-continuous-integration.md)
   * [DNS](devops/dns.md)

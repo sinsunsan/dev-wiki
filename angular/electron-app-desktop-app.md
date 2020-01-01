@@ -6,5 +6,7 @@
 
 {% embed url="https://github.com/electron/electron-packager" %}
 
+{% embed url="https://www.christianengvall.se/electron-packager-tutorial/" %}
+
 
 

@@ -8,5 +8,7 @@
 
 {% embed url="https://www.christianengvall.se/electron-packager-tutorial/" %}
 
+{% embed url="https://elliotekj.com/2014/05/27/how-to-create-high-resolution-icns-files/" %}
+
 
 

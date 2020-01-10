@@ -6,11 +6,5 @@
 
 {% embed url="https://github.com/electron/electron-packager" %}
 
-{% embed url="https://www.christianengvall.se/electron-packager-tutorial/" %}
-
-{% embed url="https://elliotekj.com/2014/05/27/how-to-create-high-resolution-icns-files/" %}
-
-{% embed url="https://anyconv.com/icns-converter/" %}
-
 
 

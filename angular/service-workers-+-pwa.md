@@ -6,5 +6,3 @@
 
 {% embed url="https://blog.ng-book.com/service-workers-and-angular/" %}
 
-
-

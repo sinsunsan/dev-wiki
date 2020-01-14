@@ -57,6 +57,8 @@ In this article he explain 3 types of components testing :
 
   [https://www.ng-conf.org/mocking-dependencies-angular/](https://www.ng-conf.org/mocking-dependencies-angular/)
 
+* Spying and mocking service [https://medium.com/@shashankvivek.7/testing-a-component-with-stub-services-and-spies-in-jasmine-1428d4242a49](https://medium.com/@shashankvivek.7/testing-a-component-with-stub-services-and-spies-in-jasmine-1428d4242a49)
+
 ## Testing services
 
 * Testing services with HttpTestingController [https://medium.com/netscape/testing-with-the-angular-httpclient-api-648203820712](https://medium.com/netscape/testing-with-the-angular-httpclient-api-648203820712)

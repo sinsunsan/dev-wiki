@@ -16,5 +16,7 @@
 
 {% embed url="https://github.com/sinsunsan/electronupdaterexample" %}
 
+{% embed url="https://electronjs.org/docs" %}
+
 
 

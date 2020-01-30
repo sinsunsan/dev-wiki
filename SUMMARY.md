@@ -2,6 +2,7 @@
 
 * [Blog Wiki](README.md)
 * [Angular](angular/README.md)
+  * [Story book](angular/story-book.md)
   * [Error handling](angular/error-handling.md)
   * [Angular i18n](angular/angular-i18n.md)
   * [Debug Angular](angular/2016-12-18-debug-angular2.md)

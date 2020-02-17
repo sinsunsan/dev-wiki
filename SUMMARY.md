@@ -69,6 +69,7 @@
   * [Typescript recipes](2016-01-07-discover-typescript/typescript-recipes.md)
   * [d.ts files](2016-01-07-discover-typescript/d.ts-files.md)
 * [Devops](devops/README.md)
+  * [http2](devops/http2.md)
   * [nginx](devops/nginx.md)
   * [zsh](devops/zsh.md)
   * [Dockerise simple node app](devops/dockerise-simple-node-app.md)

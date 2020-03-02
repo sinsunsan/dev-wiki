@@ -104,6 +104,7 @@
   * [SASS-CSS libraries](css/2017-11-20-sass-css-libraries.md)
   * [New things in scss](css/2017-04-03-news-in-css.md)
   * [SASS best practices](css/sass-best-practices.md)
+  * [Style lint](css/style-lint.md)
 * [Tests](tests/README.md)
   * [Cypress](tests/cypress.md)
   * [Mobile test](tests/mobile-test.md)

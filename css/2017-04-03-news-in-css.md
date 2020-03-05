@@ -152,5 +152,11 @@ Set automatically browser prefix for you
 
 * SASS MAPS 
 
-[http://clubmate.fi/sass-maps-syntax-examples-and-good-things/](http://clubmate.fi/sass-maps-syntax-examples-and-good-things/)
+{% embed url="http://clubmate.fi/sass-maps-syntax-examples-and-good-things/" %}
+
+* Sass modules 
+
+{% embed url="https://css-tricks.com/introducing-sass-modules/" %}
+
+
 

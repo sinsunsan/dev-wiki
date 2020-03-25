@@ -69,7 +69,7 @@ In this article he explain 3 types of components testing :
 [http://mylifeandcode.blogspot.fr/2017/03/how-to-mock-out-child-components-in.html](http://mylifeandcode.blogspot.fr/2017/03/how-to-mock-out-child-components-in.html)
 
 * The same technic as explained in the angular test guide official [https://angular.io/guide/testing\#nested-component-tests](https://angular.io/guide/testing#nested-component-tests)
-* Overide component in rangle.io tuto [https://angular-2-training-book.rangle.io/handout/testing/components/overriding.html](https://angular-2-training-book.rangle.io/handout/testing/components/overriding.html)
+* Override component in rangle.io tuto [https://angular-2-training-book.rangle.io/handout/testing/components/overriding.html](https://angular-2-training-book.rangle.io/handout/testing/components/overriding.html)
 
 ## Testing ngrx
 

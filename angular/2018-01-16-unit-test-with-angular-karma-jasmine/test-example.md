@@ -12,5 +12,7 @@ describe('emitChange', () => {
   });
 ```
 
+* Test a form initialization
+
 
 

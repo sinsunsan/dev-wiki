@@ -9,3 +9,9 @@
 
 * [https://www.guru99.com/regular-expressions-mongodb.html](https://www.guru99.com/regular-expressions-mongodb.html)
 
+Find documents where props exist
+
+```text
+db.getCollection('users').find({onboarding: { $exists: true} }).count();
+```
+

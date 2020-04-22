@@ -10,3 +10,9 @@
 * MX
 * DMARC : [https://www.sparkpost.com/resources/email-explained/dmarc-explained/](https://www.sparkpost.com/resources/email-explained/dmarc-explained/)  Checking tools [https://mxtoolbox.com/NetworkTools.aspx](https://mxtoolbox.com/NetworkTools.aspx)
 
+Before using an email for automation 
+
+{% embed url="https://woodpecker.co/blog/warm-up-mailbox/" %}
+
+
+

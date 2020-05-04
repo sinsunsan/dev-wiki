@@ -6,6 +6,10 @@
 
 {% embed url="https://docs.cypress.io/guides/guides/continuous-integration.html\#Setting-up-CI" %}
 
+### Alias to share tests context 
+
+{% embed url="https://docs.cypress.io/guides/core-concepts/variables-and-aliases.html\#Aliases" %}
+
 
 
 ### Plugins

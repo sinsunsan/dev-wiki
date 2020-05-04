@@ -49,6 +49,7 @@
   * [SaaS images services](services-for-developers/2016-12-22-comparison-of-images-as-services.md)
   * [Airtable API examples](services-for-developers/2016-11-30-airtable-api-examples.md)
 * [MISC](misc/README.md)
+  * [JIRA debugging](misc/jira-debugging.md)
   * [Wordpress plugins](misc/2017-09-16-wordpress-plugings-to-use.md)
   * [Interview Sébastien Lucas](misc/2018-03-15-interview-malt-angular-developer.md)
   * [English expression](misc/2017-10-12-english-expression-to-make-your-international-english-more-english.md)

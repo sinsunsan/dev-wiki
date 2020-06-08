@@ -8,5 +8,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=lvjt9rBHWjo" %}
 
+{% embed url="https://medium.com/better-programming/angular-7-series-part-2-create-custom-library-8d7a0494b2cc" %}
+
 
 

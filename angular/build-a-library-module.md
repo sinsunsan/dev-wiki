@@ -20,6 +20,8 @@ Angular Material inspirations
 
 {% embed url="https://www.freecodecamp.org/news/how-to-create-themes-for-your-angular-7-apps-using-css-variables-69251690e9c5/" %}
 
+{% embed url="https://www.freecodecamp.org/news/everything-you-need-to-know-about-css-variables-c74d922ea855/" %}
+
 
 
  

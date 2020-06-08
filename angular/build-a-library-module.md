@@ -1,6 +1,6 @@
 # Build a library module
 
-{% embed url="https://angular.io/guide/creating-libraries" %}
+{% embed url="https://angular.io/guide/creating-libraries" caption="Official guide page" %}
 
 
 
@@ -8,9 +8,9 @@
 
 {% embed url="https://www.youtube.com/watch?v=lvjt9rBHWjo" %}
 
-{% embed url="https://medium.com/better-programming/angular-7-series-part-2-create-custom-library-8d7a0494b2cc" %}
+{% embed url="https://medium.com/better-programming/angular-7-series-part-2-create-custom-library-8d7a0494b2cc" caption="check list of steps to create a lib" %}
 
-#### Theming 
+### Theming 
 
 {% embed url="https://medium.com/@tarangkhandelwal/theming-angular-app-its-libraries-8f9e46168751" %}
 

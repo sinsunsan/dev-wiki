@@ -22,6 +22,8 @@ Angular Material inspirations
 
 {% embed url="https://www.freecodecamp.org/news/everything-you-need-to-know-about-css-variables-c74d922ea855/" %}
 
+{% embed url="https://medium.com/angular-in-depth/the-ultimate-guide-to-set-up-your-angular-library-project-399d95b63500" %}
+
 
 
  

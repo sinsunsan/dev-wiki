@@ -60,7 +60,21 @@ Other articles about testing ngrx
 
 ### Other uses of ngrx effects
 
-* Article that list different use case for effects  [https://indepth.dev/start-using-ngrx-effects-for-this/](https://indepth.dev/start-using-ngrx-effects-for-this/)
+Article that list different use case for effects 
+
+{% embed url="https://indepth.dev/start-using-ngrx-effects-for-this" %}
+
+
+
+
+
+{% embed url="https://timdeschryver.dev/blog/start-using-ngrx-effects-for-this\#4-using-a-selector-inside-your-effects" %}
+
+
+
+
+
+
 
 [https://blog.angularindepth.com/start-using-ngrx-effects-for-this-e0b2bd9da165](https://blog.angularindepth.com/start-using-ngrx-effects-for-this-e0b2bd9da165)
 

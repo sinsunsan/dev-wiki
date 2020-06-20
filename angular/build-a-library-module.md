@@ -34,5 +34,7 @@ Angular Material inspirations
 
 {% embed url="https://blog.clairvoyantsoft.com/assets-support-for-angular-7-library-b3ceb0c7484b" %}
 
+{% embed url="https://www.digitalocean.com/community/tutorials/angular-custom-svg-icons-angular-material" %}
+
 
 

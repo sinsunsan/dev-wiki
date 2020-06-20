@@ -26,5 +26,13 @@ Angular Material inspirations
 
 
 
- 
+###  Specific case 
+
+#### Get the assets of the library in dist folder 
+
+{% embed url="https://github.com/linnenschmidt/build-ng-packagr\#how-to-use-it" %}
+
+{% embed url="https://blog.clairvoyantsoft.com/assets-support-for-angular-7-library-b3ceb0c7484b" %}
+
+
 

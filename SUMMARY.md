@@ -102,6 +102,7 @@
   * [Linux Mac tips](tooling/2017-01-03-linux-mac-tips.md)
   * [Webstorm configuration](tooling/2017-10-23-web-storm-configuration.md)
   * [Develop in Windows](tooling/2018-01-10-develop-with-windows.md)
+  * [Mac debug hardware](tooling/mac-debug-hardware.md)
   * [Mac Setup for a developer](tooling/2017-03-22-mac-setup.md)
   * [Chrome extension](tooling/2017-10-24-my-chrome-extensions.md)
   * [Develop toolbox](tooling/2016-12-21-developer-toolbox.md)

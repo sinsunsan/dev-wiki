@@ -24,7 +24,11 @@ Angular Material inspirations
 
 {% embed url="https://medium.com/angular-in-depth/the-ultimate-guide-to-set-up-your-angular-library-project-399d95b63500" %}
 
+### Make library configurable  
 
+{% embed url="https://www.usefuldev.com/post/Angular:%20Creating%20configurable%20libraries%20with%20angular%20cli" %}
+
+ 
 
 ###  Specific case 
 

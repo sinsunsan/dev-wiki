@@ -34,11 +34,19 @@ Angular Material inspirations
 
 #### Get the assets of the library in dist folder 
 
+This issue is not more valid from angular 9
+
 {% embed url="https://github.com/linnenschmidt/build-ng-packagr\#how-to-use-it" %}
 
 {% embed url="https://blog.clairvoyantsoft.com/assets-support-for-angular-7-library-b3ceb0c7484b" %}
 
 {% embed url="https://www.digitalocean.com/community/tutorials/angular-custom-svg-icons-angular-material" %}
+
+### How to have the lib build refreshed in the host project 
+
+Using npm link ?
+
+{% page-ref page="../npm.md" %}
 
 
 

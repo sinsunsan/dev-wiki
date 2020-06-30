@@ -38,7 +38,13 @@ Angular Material inspirations
 
 ###  Specific case 
 
-#### Get the assets of the library in dist folder 
+* How the modules of dist/library are available for all app without being a node module 
+
+Thanks to path additions of tsconfig.json added at the time of doing **ng generate library my-lib**
+
+[https://www.typescriptlang.org/docs/handbook/module-resolution.html\#base-url](https://www.typescriptlang.org/docs/handbook/module-resolution.html#base-url)
+
+### Get the assets of the library in dist folder 
 
 This issue is not more valid from angular 9
 

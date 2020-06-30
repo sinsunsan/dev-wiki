@@ -34,9 +34,7 @@ Angular Material inspirations
 
 {% embed url="https://www.usefuldev.com/post/Angular:%20Creating%20configurable%20libraries%20with%20angular%20cli" %}
 
- 
-
-###  Specific case 
+###  Module resolution and library 
 
 * How the modules of dist/library are available for all app without being a node module 
 

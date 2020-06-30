@@ -2,15 +2,11 @@
 
 {% embed url="https://angular.io/guide/creating-libraries" caption="Official guide page" %}
 
-
-
 {% embed url="https://medium.com/@tomsu/how-to-build-a-library-for-angular-apps-4f9b38b0ed11" %}
 
 {% embed url="https://www.youtube.com/watch?v=lvjt9rBHWjo" %}
 
 {% embed url="https://www.youtube.com/watch?v=l3wjN4datGs" %}
-
-
 
 
 
@@ -20,9 +16,7 @@
 
 {% embed url="https://medium.com/@tarangkhandelwal/theming-angular-app-its-libraries-8f9e46168751" %}
 
-Angular Material inspirations 
-
-{% embed url="https://github.com/angular/components/tree/master/src/material" %}
+{% embed url="https://github.com/angular/components/tree/master/src/material" caption="Angular Material inspirations " %}
 
 {% embed url="https://www.freecodecamp.org/news/how-to-create-themes-for-your-angular-7-apps-using-css-variables-69251690e9c5/" %}
 
@@ -38,7 +32,7 @@ Angular Material inspirations
 
 * How the modules of dist/library are available for all app without being a node module 
 
-Thanks to path additions of tsconfig.json added at the time of doing **ng generate library my-lib**
+Thanks to path additions of tsconfig.json added at the time of doing **`ng generate library my-lib`**
 
 [https://www.typescriptlang.org/docs/handbook/module-resolution.html\#base-url](https://www.typescriptlang.org/docs/handbook/module-resolution.html#base-url)
 
@@ -54,9 +48,11 @@ This issue is not more valid from angular 9
 
 ### Publish the npm package 
 
+* Use an open source free private npm package
+
 {% embed url="https://github.com/verdaccio/verdaccio" caption="Open source private npm proxy" %}
 
-* [https://docs.npmjs.com/cli-commands/pack.html](https://docs.npmjs.com/cli-commands/pack.html)
+* Or use `npm pack` in dist/my-lib folder and npm install from this npm pack [https://docs.npmjs.com/cli-commands/pack.html](https://docs.npmjs.com/cli-commands/pack.html)
 
 {% page-ref page="../npm.md" %}
 

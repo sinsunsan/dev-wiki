@@ -52,7 +52,7 @@ This issue is not more valid from angular 9
 
 {% embed url="https://github.com/verdaccio/verdaccio" caption="Open source private npm proxy" %}
 
-
+* [https://docs.npmjs.com/cli-commands/pack.html](https://docs.npmjs.com/cli-commands/pack.html)
 
 {% page-ref page="../npm.md" %}
 

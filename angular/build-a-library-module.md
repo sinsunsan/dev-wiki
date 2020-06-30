@@ -8,6 +8,12 @@
 
 {% embed url="https://www.youtube.com/watch?v=lvjt9rBHWjo" %}
 
+{% embed url="https://www.youtube.com/watch?v=l3wjN4datGs" %}
+
+
+
+
+
 {% embed url="https://medium.com/better-programming/angular-7-series-part-2-create-custom-library-8d7a0494b2cc" caption="check list of steps to create a lib" %}
 
 ### Theming 
@@ -42,9 +48,11 @@ This issue is not more valid from angular 9
 
 {% embed url="https://www.digitalocean.com/community/tutorials/angular-custom-svg-icons-angular-material" %}
 
-### How to have the lib build refreshed in the host project 
+### Publish the npm package 
 
-Using npm link ?
+{% embed url="https://github.com/verdaccio/verdaccio" caption="Open source private npm proxy" %}
+
+
 
 {% page-ref page="../npm.md" %}
 

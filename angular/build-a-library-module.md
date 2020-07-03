@@ -1,5 +1,14 @@
 # Build a library module
 
+### Type of library 
+
+Angular libraries can come in different shapes and for different purposes!
+
+* **utils** — a collection of various utilities, usually in form of stateless services
+* **component library** — a collection of reusable simple \(dumb\) components with only plain API facilitated using mostly `@Input` and `@Output` decorators
+* **drop in component** — a more complex component with its own state handling / data fetching which can still communicate with the parent application using `@Input` and `@Output` \(eg pass in configuration or let the parent know about the outcome of some operation…\)
+* **sub-application** — the most complex library which could also run as a stand alone application if the need be. Such a library can come with multiple modules with their own routes, components and services…  List taken from this [article](https://medium.com/@tomastrajan/why-and-how-to-lazy-load-angular-libraries-a3bf1489fe24)
+
 ### Global explanation of how to set up a lib for Angular 
 
 {% embed url="https://angular.io/guide/creating-libraries" caption="Official guide page" %}

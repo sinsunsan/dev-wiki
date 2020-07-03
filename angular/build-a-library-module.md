@@ -1,7 +1,5 @@
 # Build a library module
 
-### Global explanation of how to set up a lib for Angular 
-
 {% embed url="https://angular.io/guide/creating-libraries" caption="Official guide page" %}
 
 {% embed url="https://medium.com/@tomsu/how-to-build-a-library-for-angular-apps-4f9b38b0ed11" %}
@@ -10,9 +8,9 @@
 
 {% embed url="https://www.youtube.com/watch?v=l3wjN4datGs" %}
 
-{% embed url="https://medium.com/better-programming/angular-7-series-part-2-create-custom-library-8d7a0494b2cc" caption="check list of steps to create a lib" %}
 
-### 
+
+{% embed url="https://medium.com/better-programming/angular-7-series-part-2-create-custom-library-8d7a0494b2cc" caption="check list of steps to create a lib" %}
 
 ### Theming 
 
@@ -26,23 +24,17 @@
 
 {% embed url="https://medium.com/angular-in-depth/the-ultimate-guide-to-set-up-your-angular-library-project-399d95b63500" %}
 
-### 
-
 ### Make library configurable  
 
 {% embed url="https://www.usefuldev.com/post/Angular:%20Creating%20configurable%20libraries%20with%20angular%20cli" %}
 
-###  
-
-### Module resolution and library 
+###  Module resolution and library 
 
 * How the modules of dist/library are available for all app without being a node module 
 
 Thanks to path additions of tsconfig.json added at the time of doing **`ng generate library my-lib`**
 
 [https://www.typescriptlang.org/docs/handbook/module-resolution.html\#base-url](https://www.typescriptlang.org/docs/handbook/module-resolution.html#base-url)
-
-### 
 
 ### Get the assets of the library in dist folder 
 
@@ -54,8 +46,6 @@ This issue is not more valid from angular 9
 
 {% embed url="https://www.digitalocean.com/community/tutorials/angular-custom-svg-icons-angular-material" %}
 
-### 
-
 ### Publish the npm package 
 
 * Use an open source free private npm package
@@ -65,14 +55,6 @@ This issue is not more valid from angular 9
 * Or use `npm pack` in dist/my-lib folder and npm install from this npm pack [https://docs.npmjs.com/cli-commands/pack.html](https://docs.npmjs.com/cli-commands/pack.html)
 
 {% page-ref page="../npm.md" %}
-
-### Workspace \(Angular CLI or NX\)
-
-{% embed url="https://github.com/angularlicious/lazy-load-library-micro-app" %}
-
-{% embed url="https://medium.com/@angularlicious/lazy-load-angular-library-micro-applications-648c947821c3" %}
-
-{% embed url="https://nx.dev/angular" %}
 
 
 

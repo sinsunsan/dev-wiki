@@ -4,6 +4,7 @@
 * [Story book](story-book.md)
 * [Angular](angular/README.md)
   * [Interceptor](angular/interceptor.md)
+  * [Micro frontend + Mono repo](angular/micro-frontend-+-mono-repo.md)
   * [Build a library module](angular/build-a-library-module.md)
   * [Error handling](angular/error-handling.md)
   * [Virtual and infinite scroll](angular/virtual-and-infinite-scroll.md)

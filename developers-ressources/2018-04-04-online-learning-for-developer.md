@@ -36,6 +36,10 @@ Courses of US universities
 
 {% embed url="https://www.codingame.com/" %}
 
+### Hakattic 
+
+{% embed url="https://hackattic.com/kata/" %}
+
 
 
 

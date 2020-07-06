@@ -1,4 +1,4 @@
-# Testing platform
+# Coding test platforms
 
 ### Testdome
 
@@ -8,5 +8,9 @@
 
 {% embed url="https://www.codility.com/" %}
 
+### HackerRank
 
+{% embed url="https://www.hackerrank.com" %}
+
+### 
 

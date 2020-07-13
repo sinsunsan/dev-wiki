@@ -456,5 +456,9 @@ getTasks(): Observable<Tasks[]> {
   }
 ```
 
+### Multiple service calls
+
+{% embed url="https://coryrylan.com/blog/angular-multiple-http-requests-with-rxjs" %}
+
 
 

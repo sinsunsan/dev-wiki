@@ -12,3 +12,7 @@ Change the `compilerOptions` in the tsConfig.json
 
 project &gt; test &gt; options &gt; "stylePreprocessorOptions": { "includePaths": \["path1", "path2"\] }
 
+{% embed url="https://scotch.io/tutorials/angular-shortcut-to-importing-styles-files-in-components" %}
+
+
+

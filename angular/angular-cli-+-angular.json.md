@@ -18,5 +18,11 @@ project &gt; test &gt; options &gt; "stylePreprocessorOptions": { "includePaths"
 
 {% embed url="https://scotch.io/tutorials/angular-shortcut-to-importing-styles-files-in-components" %}
 
+### Create an angular project using a specific angular version 
 
+```text
+npx @angular/cli@7 new Angular7Project
+```
+
+>
 

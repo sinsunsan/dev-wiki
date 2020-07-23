@@ -1,4 +1,4 @@
-# css grid
+# Css grid
 
 {% embed url="https://css-tricks.com/snippets/css/complete-guide-grid/" %}
 

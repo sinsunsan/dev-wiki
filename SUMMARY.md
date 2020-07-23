@@ -117,6 +117,7 @@
   * [Css grid](css/css-grid.md)
   * [Favicon](css/favicon.md)
   * [Flexbox grid](css/2017-10-26-flexbox-grid.md)
+  * [Flexbox layout](css/flexbox-layout.md)
   * [PUG templates tips](css/2017-05-02-pug-templates-tips.md)
   * [Html and css references](css/2017-05-24-html-and-css-references.md)
   * [Css snippets](css/2017-05-12-css-snippets.md)

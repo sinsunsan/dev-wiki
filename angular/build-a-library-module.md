@@ -39,7 +39,7 @@ Angular libraries can come in different shapes and for different purposes!
 
 ### Make library configurable  
 
-For sshort we need to use an injection token and a provider in the  module definition of the lib and use forRoot in the consuming app.
+For short we need to use an injection token and a provider in the  module definition of the lib and use forRoot in the consuming app.
 
 {% embed url="https://www.usefuldev.com/post/Angular:%20Creating%20configurable%20libraries%20with%20angular%20cli" %}
 

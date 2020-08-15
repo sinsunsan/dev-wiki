@@ -4,9 +4,13 @@ description: Set up a mono repo from a splitted code base
 
 # Set up a mono repo
 
-#### Mono-repo tools and framework that allow ot run multiple app in one with even mix of techno React+ Angular
+* Lerna 
+* Nx
+* Meta 
 
-#### [https://nx.dev/angular](https://nx.dev/angular)
+#### Mono-repo tools and framework that allow to run multiple app in one with even mix of techno React+ Angular
+
+#### https://nx.dev/angular
 
 #### **Lerna to share dependencies between different separated repo**
 
@@ -25,6 +29,10 @@ description: Set up a mono repo from a splitted code base
 **Meta an alternative way of mounting your projects together** 
 
 * \*\*\*\*[https://medium.com/@patrickleet/mono-repo-or-multi-repo-why-choose-one-when-you-can-have-both-e9c77bd0c668](https://medium.com/@patrickleet/mono-repo-or-multi-repo-why-choose-one-when-you-can-have-both-e9c77bd0c668)
+
+### Nx 
+
+* Migrating from angular.js [https://blog.nrwl.io/migrating-an-angularjs-project-into-an-nx-workspace-d329d907f48](https://blog.nrwl.io/migrating-an-angularjs-project-into-an-nx-workspace-d329d907f48)
 
 
 

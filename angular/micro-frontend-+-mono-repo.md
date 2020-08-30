@@ -12,7 +12,15 @@
 
 {% embed url="https://www.youtube.com/watch?v=LYjX2V-eQa8" %}
 
+* Install nebular in a nx workspace 
 
+{% embed url="https://akveo.github.io/nebular/docs/guides/install-nebular\#install-nebular" %}
+
+`nx add --project my-project @nebular/theme`
+
+* An example guide on how to setup an angular app with nx
+
+[https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/](https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/)
 
 
 

@@ -85,7 +85,7 @@
   * [Dockerise simple node app](docker/dockerise-simple-node-app.md)
   * [Docker by aymen el amri](docker/2018-02-08-docker-ecosystem-by-aymen-el-amri.md)
 * [Devops](devops/README.md)
-  * [Herokyu](devops/herokyu.md)
+  * [Heroku](devops/herokyu.md)
   * [Gitlab CI](devops/gitlab-ci.md)
   * [Mongodb](devops/mongodb.md)
   * [http2](devops/http2.md)

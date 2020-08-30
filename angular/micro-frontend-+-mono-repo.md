@@ -23,7 +23,13 @@
 
 * An example guide on how to setup an angular app with nx
 
-[https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/](https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/)
+{% embed url="https://duncanhunter.gitbook.io/enterprise-angular-applications-with-ngrx-and-nx/" %}
+
+{% embed url="https://indepth.dev/code-sharing-made-easy-in-a-full-stack-app-with-nx-angular-and-nestjs" %}
+
+
+
+
 
 
 

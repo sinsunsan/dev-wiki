@@ -141,6 +141,7 @@
   * [Git tips](git/2017-02-24-git-tips.md)
   * [Set up a mono repo](git/set-up-a-mono-repo.md)
 * [Design Pattern](design-pattern.md)
+* [Job board / Remote jobs](job-board-remote-jobs.md)
 * [SVG](svg-and-vectorial-drawing.md)
 * [Untitled](untitled.md)
 * [NPM](npm.md)

@@ -32,7 +32,7 @@ description: Set up a mono repo from a splitted code base
 
 ### Nx 
 
-* Migrating from angular.js [https://blog.nrwl.io/migrating-an-angularjs-project-into-an-nx-workspace-d329d907f48](https://blog.nrwl.io/migrating-an-angularjs-project-into-an-nx-workspace-d329d907f48)
+* Migrating from angular.js [ ](https://blog.nrwl.io/migrating-an-angularjs-project-into-an-nx-workspace-d329d907f48)  
 
 
 

@@ -2,7 +2,7 @@ Mocha is a feature-rich JavaScript test framework running on Node.js and in the 
 
 Lots of documentation is available on https://mochajs.org/ but here are a couple of notes that can be useful
 
-# npm
+# NPM
 
 * `"test": "mocha --watch" `
   * will launch mocha which is globally installed and log for scripts in the test folder "./test/*.js"
@@ -18,7 +18,7 @@ Lots of documentation is available on https://mochajs.org/ but here are a couple
   e.g `process.env.NODE_ENV = 'development'`
  
 
-# config file .mocharc.js
+# Config file .mocharc.js
 
 e.g
 ```
@@ -38,6 +38,18 @@ e.g
 
 more details and ideas for configuration on https://mochajs.org/#command-line-usage
 
+
+# Code coverage
+* Install [Istambul](https://istanbul.js.org/) package `npm i nyc --save-dev`
+
+* Edit the package.json to perform the coverage check of the test:
+```
+{
+  "scripts": {
+    "test": "nyc --reporter=text mocha"
+  }
+}
+```
 
 
 

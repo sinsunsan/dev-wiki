@@ -18,3 +18,9 @@ Find documents where props exist
 db.getCollection('users').find({onboarding: { $exists: true} }).count();
 ```
 
+### Mongo db using Atlas
+
+Import your data
+
+* [https://docs.atlas.mongodb.com/import/mongorestore/](https://docs.atlas.mongodb.com/import/mongorestore/)
+

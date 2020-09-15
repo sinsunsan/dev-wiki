@@ -45,6 +45,7 @@ So you have 2 or more async observables, the Observable.combineLatest is called 
 A variable that is changed using next\(\) and "watched" using subscribe
 
 * [official doc on subjects](http://reactivex.io/documentation/subject.html)
+* A good comparison of **behaviorSubject** **ReplaySubject** and **asyncSubject** [https://medium.com/@luukgruijs/understanding-rxjs-behaviorsubject-replaysubject-and-asyncsubject-8cc061f1cfc0](https://medium.com/@luukgruijs/understanding-rxjs-behaviorsubject-replaysubject-and-asyncsubject-8cc061f1cfc0)
 * **When to use?** : When we need to keep an updatable value \(for example the connected user\) and get all components updated when this value change
 
 ## \[Operator\] map

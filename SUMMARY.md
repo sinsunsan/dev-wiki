@@ -136,6 +136,7 @@
   * [Type of tests + Ressources](tests/type-of-tests-+-ressources.md)
   * [Jasmine test](tests/2018-01-17-jasmine-behavior-driven-test.md)
   * [E2e tests with protactor](tests/2018-01-11-end-to-end-test-with-angular-protractor.md)
+  * [Mocha](tests/mocha.md)
 * [REVIT & AEC tools](revit-and-aec-tools.md)
 * [Git](git/README.md)
   * [Git commits](git/git-commits.md)

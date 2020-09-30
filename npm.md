@@ -6,7 +6,8 @@
 * [https://docs.npmjs.com/cli-commands/pack.html](https://docs.npmjs.com/cli-commands/pack.html)
 
 ## Packages
+
 * install packages directly from github:
 
-`npm install express` can be alternatively done like this:
-`npm install git+https://github.com/visionmedia/express.git`
+`npm install express` can be alternatively done like this: `npm install git+https://github.com/visionmedia/express.git`
+

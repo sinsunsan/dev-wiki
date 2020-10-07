@@ -7,7 +7,7 @@
   * [Angular Schematic](angular/angular-schematic.md)
   * [Interceptor](angular/interceptor.md)
   * [Micro frontend + Mono repo](angular/micro-frontend-+-mono-repo.md)
-  * [Build a library module](angular/build-a-library-module.md)
+  * [Build a library module](angular/angular-library.md)
   * [Error handling](angular/error-handling.md)
   * [Virtual and infinite scroll](angular/virtual-and-infinite-scroll.md)
   * [Angular i18n](angular/angular-i18n.md)

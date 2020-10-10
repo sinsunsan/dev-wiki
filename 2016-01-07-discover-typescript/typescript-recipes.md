@@ -6,6 +6,8 @@ By default, interfaces not allows other properties that those specified.
 
 You can however allow custom properties by using the  \[key: string\]: any; in an interface
 
+### Dynamic property name
+
 ```typescript
 interface Post {
     title: string; 
@@ -26,7 +28,7 @@ interface Post {
 }
 ```
 
-Extendable interface 
+### Extend interface
 
 ```typescript
 interface PostExtended extends Post {
@@ -34,5 +36,11 @@ interface PostExtended extends Post {
 }
 ```
 
+### Override interface
 
+You can also override an interface by replacing the way a given prop is defined
+
+```typescript
+export interface TdProjectDisplay extends Omit { code: string; }
+```
 

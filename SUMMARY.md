@@ -50,6 +50,7 @@
   * [Observables rxjs recipes](javascript/2017-05-31-observables-rxjs-recipes.md)
   * [Vanilla JS](javascript/2018-06-27-plain-vanilla-js.md)
 * [NODE.js](node.js/README.md)
+  * [Fix CORS](node.js/fix-cors.md)
   * [API tests](node.js/api-tests.md)
   * [Node.js security](node.js/node.js-security.md)
   * [Learn node.js](node.js/2016-12-23-learn-node.js.md)

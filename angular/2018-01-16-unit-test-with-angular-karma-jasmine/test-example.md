@@ -1,6 +1,6 @@
-# Test example
+# Unit test recipes \(Jasmine / Karma / Angular\)
 
-* Test a component emission
+#### Test a component emission
 
 ```javascript
 describe('emitChange', () => {
@@ -12,7 +12,7 @@ describe('emitChange', () => {
 });
 ```
 
-* Test a form initialization
+#### Test a form initialization
 
 ```javascript
 describe('ngOnInit', () => {
@@ -24,4 +24,10 @@ describe('ngOnInit', () => {
   });
 });
 ```
+
+#### Test the afterClosed function of a mat dialog 
+
+{% embed url="https://stackoverflow.com/a/56679050/1453811" %}
+
+
 

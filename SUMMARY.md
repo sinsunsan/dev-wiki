@@ -22,7 +22,7 @@
   * [Mobile](angular/mobile.md)
   * [Electron app / Desktop app](angular/electron-app-desktop-app.md)
   * [Unit test & Angular](angular/2018-01-16-unit-test-with-angular-karma-jasmine/README.md)
-    * [Test example](angular/2018-01-16-unit-test-with-angular-karma-jasmine/test-example.md)
+    * [Unit test recipes \(Jasmine / Karma / Angular\)](angular/2018-01-16-unit-test-with-angular-karma-jasmine/test-example.md)
     * [Testing services with httpMock](angular/2018-01-16-unit-test-with-angular-karma-jasmine/testing-services-with-httpmock.md)
   * [Communication between components](angular/2017-08-07-different-ways-to-communicate-between-component-in-angular2.md)
   * [Angular snippet library](angular/2017-10-12-angular-2-4-snippets-library.md)

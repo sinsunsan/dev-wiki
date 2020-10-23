@@ -81,7 +81,7 @@
   * [The Future of AI](ai/2017-06-01-ia-future.md)
   * [Learn algo and data structures](ai/learn-algo-and-data-structures.md)
 * [Typescript](2016-01-07-discover-typescript/README.md)
-  * [Advanced types](2016-01-07-discover-typescript/advanced-types.md)
+  * [Generic types](2016-01-07-discover-typescript/advanced-types.md)
   * [Typescript recipes](2016-01-07-discover-typescript/typescript-recipes.md)
   * [d.ts files](2016-01-07-discover-typescript/d.ts-files.md)
 * [Docker](docker/README.md)

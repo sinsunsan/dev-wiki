@@ -2,6 +2,7 @@
 
 * [Blog Wiki](README.md)
 * [Story book](story-book.md)
+* [Developers comics](developers-comics.md)
 * [Angular](angular/README.md)
   * [Angular CLI + Angular.json](angular/angular-cli-+-angular.json.md)
   * [ngTemplateOutlet](angular/ngtemplateoutlet.md)

@@ -61,6 +61,7 @@
   * [Mongoose recipe](node.js/2017-05-05-mongoose-recipe.md)
   * [Debug node.js](node.js/2017-01-16-debug-nodejs.md)
 * [Gatsby / React](gatsby/README.md)
+  * [Hooks](gatsby/hooks.md)
   * [React concepts](gatsby/react-concepts.md)
   * [Gatsby internationalisation](gatsby/gatsby-internationalisation.md)
 * [Services for developers](services-for-developers/README.md)

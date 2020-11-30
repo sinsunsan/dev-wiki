@@ -12,13 +12,14 @@ published: true
 * [rxjs / The original doc](http://reactivex.io/rxjs/)
 * [A selection of 6 operators to know](https://netbasal.com/rxjs-six-operators-that-you-must-know-5ed3b6e238a0)
 * [Another Online book on RXJS](http://xgrommx.github.io/rx-book/content/observable)
-* [A playground to display obersable in action](https://rxviz.com/examples/chess-game)
+* [A playground to display observable in action](https://rxviz.com/examples/chess-game)
 * [https://coryrylan.com/blog/angular-multiple-http-requests-with-rxjs](https://coryrylan.com/blog/angular-multiple-http-requests-with-rxjs)
 
 ## Unsubscribing to observable in Angular
 
 * [https://blog.codecentric.de/en/2018/01/different-ways-unsubscribing-rxjs-observables-angular/](https://blog.codecentric.de/en/2018/01/different-ways-unsubscribing-rxjs-observables-angular/)
 * [https://medium.com/@benlesh/rxjs-dont-unsubscribe-6753ed4fda87](https://medium.com/@benlesh/rxjs-dont-unsubscribe-6753ed4fda87)
+* [https://medium.com/angular-in-depth/the-best-way-to-unsubscribe-rxjs-observable-in-the-angular-applications-d8f9aa42f6a0](https://medium.com/angular-in-depth/the-best-way-to-unsubscribe-rxjs-observable-in-the-angular-applications-d8f9aa42f6a0)
 
 ## Create a timer with observable
 
@@ -32,7 +33,7 @@ const timer = Rx.Observable.interval(5000);
 
 ## \[Observable\] Observable.combineLatest
 
-* **When to use?** : You have 2 queries or more. You need to do something depending of the results of those queries. For example  you need to wait for page params and get the connected user informations...
+* **When to use?** : You have 2 queries or more. You need to do something depending on of the results of those queries. For example, you need to wait for page params and get the connected user information...
 
 > CombineLatest emits an item whenever any of the source Observables emits an item \(so long as each of the source Observables has emitted at least one item\)
 
@@ -52,16 +53,16 @@ A variable that is changed using next\(\) and "watched" using subscribe
 
 `import 'rxjs/add/operator/map';`
 
-Allow to change the value of each emited items before it is sent to function subscribing to it.
+Allow to change the value of each emitted items before it is sent to function subscribing to it.
 
-* **When to use?** : After api query when we generally want to convert to Json, control with libraries like [TypedJson](https://github.com/JohnWeisz/TypedJSON)...
+* **When to use?** : After API query when we generally want to convert to JSON, control with libraries like [TypedJson](https://github.com/JohnWeisz/TypedJSON)...
 * [ official doc on map operator](http://reactivex.io/documentation/operators/map.html)
 
 ## \[Operator\] flatmap
 
 * [Difference between map & flapmap](https://namitamalik.github.io/Map-vs-FlatMap/)
 
-Mind that in js the name is not flatmap ! Look at [flatmap official doc](http://reactivex.io/documentation/operators/)flatmap.html
+Mind that in JS the name is not flatmap ! Look at [flatmap official doc](http://reactivex.io/documentation/operators/)flatmap.html
 
 ## \[Operator\] do
 
@@ -77,7 +78,7 @@ Mind that in js the name is not flatmap ! Look at [flatmap official doc](http://
 
 [Learn RXJS doc on catch](https://www.learnrxjs.io/operators/error_handling/catch.html)
 
-* **When to use?** : to catch error, return an obersable with the error information
+* **When to use?** : to catch error, return an observable with the error information
 
 ## \[Operator\] take
 
@@ -89,7 +90,7 @@ Mind that in js the name is not flatmap ! Look at [flatmap official doc](http://
 
 ## \[Filter\] filter
 
-* **When to use?** : Select the condition to received a given obersable, for example you want to make an api call only if the parameters are available 
+* **When to use?** : Select the condition to receive a given observable, for example you want to make an API call only if the parameters are available 
 
 [Learn RXJS on filter](https://www.learnrxjs.io/operators/filtering/filter.html)
 
@@ -97,13 +98,13 @@ Mind that in js the name is not flatmap ! Look at [flatmap official doc](http://
 
 `import 'rxjs/add/operator/withLatestFrom';`
 
-* **When to use?** Combine 2 sources with the latest emited version for the second source. withLatestFrom is generally followed by a map where the 2 sources results `.map([source1, source2) => { //handle 2 sources }` can be manipulated
+* **When to use?** Combine 2 sources with the latest emitted version for the second source. withLatestFrom is generally followed by a map where the 2 sources results `.map([source1, source2) => { //handle 2 sources }` can be manipulated
 
 [Learn RXJS doc on withlatestfrom](https://www.learnrxjs.io/operators/combination/withlatestfrom.html)
 
 ## \[Operator\] exhaustMap
 
-* **When to use?**: Map values to inner observable and stop emitting value until inner obserable map finish \(=exhaust\)
+* **When to use?**: Map values to inner observable and stop emitting value until inner observable map finish \(=exhaust\)
 
   ```text
   this.actions$.ofType(Auth.LOGIN)

@@ -86,6 +86,7 @@
 * [Typescript](2016-01-07-discover-typescript/README.md)
   * [Generic types](2016-01-07-discover-typescript/advanced-types.md)
   * [Typescript recipes](2016-01-07-discover-typescript/typescript-recipes.md)
+  * [Conditional types](2016-01-07-discover-typescript/conditional-types.md)
   * [d.ts files](2016-01-07-discover-typescript/d.ts-files.md)
 * [Docker](docker/README.md)
   * [Starting with docker](docker/2018-05-17-starting-with-docker.md)

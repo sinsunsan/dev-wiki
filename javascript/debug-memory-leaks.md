@@ -8,9 +8,5 @@ Example of a memory leaks \(to test its detection with chrome\)
 
 {% embed url="https://developer.chrome.com/devtools/docs/demos/memory/example1" %}
 
-{% embed url="https://github.com/search?q=memory+leak" %}
-
-{% embed url="https://media-codings.com/articles/automatically-detect-memory-leaks-with-puppeteer" %}
-
 
 

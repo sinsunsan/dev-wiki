@@ -54,6 +54,7 @@
   * [Vanilla JS](javascript/2018-06-27-plain-vanilla-js.md)
 * [NODE.js](node.js/README.md)
   * [Fix CORS](node.js/fix-cors.md)
+  * [Pagination requests in API](node.js/pagination-requests-in-api.md)
   * [API tests](node.js/api-tests.md)
   * [Node.js security](node.js/node.js-security.md)
   * [Learn node.js](node.js/2016-12-23-learn-node.js.md)

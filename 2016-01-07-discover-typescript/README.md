@@ -13,7 +13,7 @@ Like ES6 and all new JavaScript brand, it needs to be compiled to current JavaSc
 ## Resources
 
 * Typescript official documentation [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
-* An open source book on typescript [https://basarat.gitbooks.io/typescript](https://basarat.gitbooks.io/typescript)
+* An open source book on typescript [https://basarat.gitbooks.io/typescript](https://basarat.gitbooks.io/typescript) 
 
 ## 
 

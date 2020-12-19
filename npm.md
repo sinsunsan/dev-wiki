@@ -11,3 +11,9 @@
 
 `npm install express` can be alternatively done like this: `npm install git+https://github.com/visionmedia/express.git`
 
+
+
+### Free Npm private package
+
+[https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free/](https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free/)
+

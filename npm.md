@@ -7,7 +7,7 @@
 
 ## Packages
 
-* install packages directly from github:
+* install packages directly from GitHub:
 
 `npm install express` can be alternatively done like this: `npm install git+https://github.com/visionmedia/express.git`
 
@@ -15,5 +15,15 @@
 
 ### Free Npm private package
 
-[https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free/](https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free/)
+{% embed url="https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free/" %}
+
+### Npm view : List all info \(version, file... about a given package\)
+
+`npm view` 
+
+\`\`
+
+
+
+
 

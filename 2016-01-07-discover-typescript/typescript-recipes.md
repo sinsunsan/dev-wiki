@@ -44,5 +44,12 @@ You can also override an interface by replacing the way a given prop is defined
 export interface TdProjectDisplay extends Omit { code: string; }
 ```
 
+### Ask typescript to ignore an error
 
+```typescript
+let text: string
+// the following error will be ignored! 
+// @ts-ignore 
+text = 2;
+```
 

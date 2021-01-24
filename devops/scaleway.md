@@ -14,3 +14,9 @@ sudo systemctl start mongod.service
 
 The order of volume matter : the first volume is by default the startup volume 
 
+### How to know if a DB is empty 
+
+* Conect to mongo using `mongo`
+* Type `show dbs;`
+* It will output all dbs and  their space on disk
+

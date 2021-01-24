@@ -20,3 +20,11 @@ The order of volume matter : the first volume is by default the startup volume
 * Type `show dbs;`
 * It will output all dbs and  their space on disk
 
+### Start Mongodb from default location 
+
+```text
+mongod --dbpath=/var/lib/mongodb
+```
+
+>
+

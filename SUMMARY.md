@@ -97,6 +97,7 @@
   * [Docker by aymen el amri](docker/2018-02-08-docker-ecosystem-by-aymen-el-amri.md)
 * [Devops](devops/README.md)
   * [Heroku](devops/herokyu.md)
+  * [Scaleway](devops/scaleway.md)
   * [Gitlab CI](devops/gitlab-ci.md)
   * [Mongodb](devops/mongodb.md)
   * [http2](devops/http2.md)

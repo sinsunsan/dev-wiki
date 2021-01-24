@@ -4,5 +4,11 @@
 
 {% embed url="https://askubuntu.com/questions/91286/how-to-see-log-to-find-a-boot-problem" %}
 
+[https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04-source](https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04-source)  
+  
+restart mongo db
 
+```text
+sudo systemctl start mongod.service
+```
 

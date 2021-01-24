@@ -12,3 +12,5 @@ restart mongo db
 sudo systemctl start mongod.service
 ```
 
+The order of volume matter : the first volume is by default the startup volume 
+

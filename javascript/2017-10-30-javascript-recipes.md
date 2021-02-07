@@ -49,6 +49,10 @@ The original
 
 {% embed url="https://gist.github.com/sinsunsan/bc176b1d845d5f7dc14d63e946b1278d" %}
 
+### Conditionally insert some properties in an object 
+
+{% embed url="https://medium.com/@mikeh91/conditionally-adding-keys-to-javascript-objects-using-spread-operators-and-short-circuit-evaluation-acf157488ede" %}
+
 
 
 

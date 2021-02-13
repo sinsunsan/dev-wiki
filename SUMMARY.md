@@ -130,6 +130,7 @@
   * [Chrome extension](tooling/2017-10-24-my-chrome-extensions.md)
   * [Develop toolbox](tooling/2016-12-21-developer-toolbox.md)
 * [HTML / CSS](css/README.md)
+  * [Tailwind](css/tailwind.md)
   * [Css grid](css/css-grid.md)
   * [Favicon](css/favicon.md)
   * [Flexbox grid](css/2017-10-26-flexbox-grid.md)

@@ -100,6 +100,7 @@
 * [Devops](devops/README.md)
   * [Heroku](devops/herokyu.md)
   * [Scaleway](devops/scaleway.md)
+  * [Github template](devops/github-template.md)
   * [Gitlab CI](devops/gitlab-ci.md)
   * [Mongodb](devops/mongodb.md)
   * [http2](devops/http2.md)

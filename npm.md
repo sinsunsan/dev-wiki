@@ -13,15 +13,15 @@
 
 
 
-### Free Npm private package
+### Free NPM private package
 
 {% embed url="https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free/" %}
 
+### 
+
 ### Npm view : List all info \(version, file... about a given package\)
 
-`npm view` 
-
-\`\`
+`npm view`
 
 
 

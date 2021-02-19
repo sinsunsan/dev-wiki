@@ -159,7 +159,7 @@
   * [Git tips](git/2017-02-24-git-tips.md)
   * [Set up a mono repo](git/set-up-a-mono-repo.md)
 * [Design Pattern](design-pattern/README.md)
-  * [Functional Programing](design-pattern/functional-programing.md)
+  * [Functional Programming](design-pattern/functional-programing.md)
 * [Job board / Remote jobs](job-board-remote-jobs.md)
 * [SVG](svg-and-vectorial-drawing.md)
 * [JSON](json.md)

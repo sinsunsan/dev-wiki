@@ -75,7 +75,7 @@ This issue is not more valid from angular 9
 
 * Or use `npm pack` in dist/my-lib folder and npm install from this npm pack [https://docs.npmjs.com/cli-commands/pack.html](https://docs.npmjs.com/cli-commands/pack.html)
 
-{% page-ref page="../npm.md" %}
+{% page-ref page="../npm/" %}
 
 ### Workspace \(Angular CLI or NX\) + Lazy loading and routing
 

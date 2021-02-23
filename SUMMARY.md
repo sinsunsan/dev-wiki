@@ -165,7 +165,9 @@
 * [JSON](json.md)
 * [Github](github/README.md)
   * [Forking a github repo](github/forking-a-github-repo.md)
-* [NPM](npm.md)
+* [NPM](npm/README.md)
+  * [Private NPM packages](npm/private-npm-packages.md)
+  * [Publish to NPM with np](npm/publish-to-npm-with-np.md)
 * [Yarn](yarn/README.md)
   * [Yarn Linking](yarn/yarn-linking.md)
 

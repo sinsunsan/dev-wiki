@@ -166,4 +166,6 @@
 * [Github](github/README.md)
   * [Forking a github repo](github/forking-a-github-repo.md)
 * [NPM](npm.md)
+* [Yarn](yarn/README.md)
+  * [Yarn Linking](yarn/yarn-linking.md)
 

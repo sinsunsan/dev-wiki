@@ -146,6 +146,7 @@
 * [Tests](tests/README.md)
   * [Cypress](tests/cypress/README.md)
     * [Cypress commands](tests/cypress/cypress-commands.md)
+    * [Best practices](tests/cypress/best-practices.md)
   * [Mobile test](tests/mobile-test.md)
   * [BDD + Cucumber](tests/bdd-+-cucumber.md)
   * [Puppeteer](tests/puppeteer.md)

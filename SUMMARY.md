@@ -147,6 +147,7 @@
   * [Cypress](tests/cypress/README.md)
     * [Learn cypress](tests/cypress/learn-cypress.md)
     * [Cypress commands](tests/cypress/cypress-commands.md)
+    * [Cypress plugins](tests/cypress/cypress-plugins.md)
     * [Page object && app actions](tests/cypress/page-object-vs-app-actions.md)
     * [Flaky tests](tests/cypress/flaky-tests.md)
   * [Mobile test](tests/mobile-test.md)

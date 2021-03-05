@@ -1,4 +1,4 @@
-# Best practices
+# Page object && app actions
 
 Page Objects vs Actions
 

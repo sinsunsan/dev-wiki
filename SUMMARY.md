@@ -146,7 +146,7 @@
   * [Style lint](css/style-lint.md)
 * [Tests](tests/README.md)
   * [Cypress](tests/cypress/README.md)
-    * [Learn cypress](tests/cypress/learn-cypress.md)
+    * [Learn cypress and more tests](tests/cypress/learn-cypress.md)
     * [Cypress commands](tests/cypress/cypress-commands.md)
     * [Cypress plugins](tests/cypress/cypress-plugins.md)
     * [Page object && app actions](tests/cypress/page-object-vs-app-actions.md)

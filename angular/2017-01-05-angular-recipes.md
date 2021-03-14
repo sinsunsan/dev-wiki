@@ -460,5 +460,9 @@ getTasks(): Observable<Tasks[]> {
 
 {% embed url="https://coryrylan.com/blog/angular-multiple-http-requests-with-rxjs" %}
 
+### Router lazy load nested path 
+
+{% embed url="https://medium.com/ngconf/how-to-nest-lazy-loaded-modules-2d73a7881be" %}
+
 
 

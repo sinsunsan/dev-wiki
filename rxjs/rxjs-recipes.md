@@ -6,9 +6,7 @@ published: true
 
 # Observables rxjs recipes
 
-## 
-
-## Unsubscribing to observable in Angular
+### Unsubscribing to observable in Angular
 
 * [https://blog.codecentric.de/en/2018/01/different-ways-unsubscribing-rxjs-observables-angular/](https://blog.codecentric.de/en/2018/01/different-ways-unsubscribing-rxjs-observables-angular/)
 * [https://medium.com/@benlesh/rxjs-dont-unsubscribe-6753ed4fda87](https://medium.com/@benlesh/rxjs-dont-unsubscribe-6753ed4fda87)
@@ -129,10 +127,6 @@ this.closeEditing$
 ```
 
 
-
-### zip vs combine latest
-
-{% embed url="https://medium.com/wavy-engineering/rxjs-observables-zip-vs-combinelatest-95098ac4b2b8\#:~:text=The%20CombineLatest%20operator%20behaves%20similarly,i.e.%2C%20the%20first%20item%20of" %}
 
 {% embed url="https://www.freecodecamp.org/news/understand-rxjs-operators-by-eating-a-pizza/" %}
 

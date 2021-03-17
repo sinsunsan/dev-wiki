@@ -56,6 +56,7 @@
 * [RXJS](rxjs/README.md)
   * [Docs](rxjs/docs.md)
   * [Observables rxjs recipes](rxjs/rxjs-recipes.md)
+  * [Combination operators](rxjs/combination-operators.md)
 * [NODE.js](node.js/README.md)
   * [Fix CORS](node.js/fix-cors.md)
   * [Pagination requests in API](node.js/pagination-requests-in-api.md)

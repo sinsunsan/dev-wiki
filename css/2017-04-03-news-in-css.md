@@ -158,5 +158,9 @@ Set automatically browser prefix for you
 
 {% embed url="https://css-tricks.com/introducing-sass-modules/" %}
 
+### SASS module with @use
+
+{% embed url="https://sass-lang.com/documentation/at-rules/use" %}
+
 
 

@@ -6,5 +6,5 @@
 
 {% embed url="https://github.com/Angular-RU/angular-storybook-starter" %}
 
-
+{% embed url="https://storybook.js.org/docs/react/configure/styling-and-css\#importing-css-files" %}
 

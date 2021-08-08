@@ -58,6 +58,7 @@
   * [Observables rxjs recipes](rxjs/rxjs-recipes.md)
   * [Combination operators](rxjs/combination-operators.md)
 * [NODE.js](node.js/README.md)
+  * [Environment variables](node.js/environment-variables.md)
   * [Fix CORS](node.js/fix-cors.md)
   * [Pagination requests in API](node.js/pagination-requests-in-api.md)
   * [API tests](node.js/api-tests.md)

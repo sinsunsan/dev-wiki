@@ -2,9 +2,9 @@
 
 ### Add any properties to an interface
 
-By default, interfaces not allows other properties that those specified. 
+By default, interfaces not allows other properties that those specified.&#x20;
 
-You can however allow custom properties by using the  \[key: string\]: any; in an interface
+You can however allow custom properties by using the  \[key: string]: any; in an interface
 
 ### Dynamic property name
 
@@ -17,7 +17,7 @@ interface Post {
 }
 ```
 
-You can also extend an existing interface 
+You can also extend an existing interface&#x20;
 
 Original interface
 
@@ -52,4 +52,10 @@ let text: string
 // @ts-ignore 
 text = 2;
 ```
+
+### Object vs object vs {}
+
+{% embed url="https://stackoverflow.com/questions/49464634/difference-between-object-and-object-in-typescript" %}
+
+
 

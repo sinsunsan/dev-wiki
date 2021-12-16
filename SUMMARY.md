@@ -169,6 +169,7 @@
 * [Git](git/README.md)
   * [Git commits](git/git-commits.md)
   * [Git tips](git/2017-02-24-git-tips.md)
+  * [Git hooks](git/git-hooks.md)
   * [Set up a mono repo](git/set-up-a-mono-repo.md)
 * [Design Pattern](design-pattern/README.md)
   * [Functional Programming](design-pattern/functional-programing.md)

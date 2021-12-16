@@ -182,4 +182,5 @@
   * [Private NPM packages](npm/private-npm-packages.md)
   * [Publish to NPM with np](npm/publish-to-npm-with-np.md)
 * [Yarn](yarn/README.md)
+  * [Yarn evolution / 2, 3...](yarn/yarn-evolution-2-3....md)
   * [Yarn Linking](yarn/yarn-linking.md)

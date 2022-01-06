@@ -56,6 +56,7 @@
   * [Vanilla JS](javascript/2018-06-27-plain-vanilla-js.md)
 * [RXJS](rxjs/README.md)
   * [Docs](rxjs/docs.md)
+  * [Recipes](rxjs/recipes.md)
   * [Mock API and sandbox](rxjs/mock-api-and-sandbox.md)
   * [Observables rxjs recipes](rxjs/rxjs-recipes.md)
   * [Combination operators](rxjs/combination-operators.md)

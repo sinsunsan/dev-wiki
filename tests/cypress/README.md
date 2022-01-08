@@ -2,13 +2,13 @@
 
 ### Cypress on CI
 
-{% embed url="https://www.youtube.com/watch?time\_continue=1028&v=saYovXS9Llk&feature=emb\_logo" %}
+{% embed url="https://www.youtube.com/watch?time_continue=1028&v=saYovXS9Llk&feature=emb_logo" %}
 
-{% embed url="https://docs.cypress.io/guides/guides/continuous-integration.html\#Setting-up-CI" %}
+{% embed url="https://docs.cypress.io/guides/guides/continuous-integration.html#Setting-up-CI" %}
 
-### Alias to share tests context 
+### Alias to share tests context&#x20;
 
-{% embed url="https://docs.cypress.io/guides/core-concepts/variables-and-aliases.html\#Aliases" %}
+{% embed url="https://docs.cypress.io/guides/core-concepts/variables-and-aliases.html#Aliases" %}
 
 
 
@@ -19,4 +19,3 @@
 * [https://github.com/cypress-io/cypress-docker-images](https://github.com/cypress-io/cypress-docker-images) docker ressources to run cypress under  docker
 * [https://github.com/briebug/cypress-schematic](https://github.com/briebug/cypress-schematic) an angular schematic to install cypress more easily in an angular project
 * [https://github.com/TheBrainFamily/cypress-cucumber-preprocessor](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor) cucumber support
-

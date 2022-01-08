@@ -7,5 +7,5 @@ published: true
 # Machine learning open source
 
 * Google Tensor Flow : the most popular machine learning libs [https://github.com/tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
-* Curated list of machine learning libraries by language and possible application [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
-
+* Curated list of machine learning libraries by language and possible application\
+  [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)

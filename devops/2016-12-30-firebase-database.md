@@ -9,13 +9,12 @@ Firebase is service developed by Google and integrated in google cloud, that all
 
 ## What is firebase database
 
-* a service bought by Google in 2014 then integrated in Google ecosystem
+*   a service bought by Google in 2014 then integrated in Google ecosystem
 
-  and specifically google storage
+    and specifically google storage
 
-  Firebase is available here : [firebase.google.com](https://firebase.google.com)
-
-* a realtime database &gt; the changes will be pushed to all the clients
+    Firebase is available here : [firebase.google.com](https://firebase.google.com)
+* a realtime database > the changes will be pushed to all the clients
 * a simple JSON Tree structure /projects/344 will store a JSON representing this specific project
 
 ## Tools for firebase
@@ -30,19 +29,17 @@ A full list of utiliies for firebase is available here [https://github.com/afons
 
 * Firebase have a limited query api
 
-This [post](http://stackoverflow.com/questions/26700924/query-based-on-multiple-where-clauses-in-firebase%20) describe the current limitations, impossible to filter by multiple clause. And 3 workaround, filter on the front, compound keys or index.
+This [post](http://stackoverflow.com/questions/26700924/query-based-on-multiple-where-clauses-in-firebase) describe the current limitations, impossible to filter by multiple clause. And 3 workaround, filter on the front, compound keys or index.
 
 Other are working on a library to be able to do [where](https://github.com/davideast/Querybase) style query
 
 ## How to set it up in the backend with node.js
 
-* you need to add the SDK
+*   you need to add the SDK
 
-  [https://firebase.google.com/docs/admin/setup](https://firebase.google.com/docs/admin/setup)
-
+    [https://firebase.google.com/docs/admin/setup](https://firebase.google.com/docs/admin/setup)
 * Look at the [quick start example app](https://github.com/firebase/quickstart-nodejs)
 
 ## how to set it up in the front end with angular 2
 
 * Use Angular fire2
-

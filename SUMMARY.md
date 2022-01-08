@@ -142,7 +142,7 @@
 * [HTML / CSS](css/README.md)
   * [Tailwind](css/tailwind.md)
   * [Css grid](css/css-grid.md)
-  * [Css gradients & new style](css/css-gradients-and-new-style.md)
+  * [☘ Nice styles & generators](css/nice-styles-and-generators.md)
   * [Favicon](css/favicon.md)
   * [Flexbox grid](css/2017-10-26-flexbox-grid.md)
   * [Flexbox layout](css/flexbox-layout.md)
